@@ -18,9 +18,6 @@ Do you want to see the world? Do you have a budget? Do you know you can have bot
 
 ### Wireframe Design
 
-
-
-
 <a id="user-stories"></a>
 ## User Stories
 
@@ -28,12 +25,10 @@ Do you want to see the world? Do you have a budget? Do you know you can have bot
 
 - **Footer**
 
-
 <a id="testing"></a>
 ## Testing
 
 ### Manual Testing
-
 
 ### Lighthouse
 
