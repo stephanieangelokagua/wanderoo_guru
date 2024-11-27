@@ -21,7 +21,26 @@ Do you want to see the world? Do you have a budget? Do you know you can have bot
 <a id="user-stories"></a>
 ## User Stories
 
+<a id="features"></a>
+## Features
+
 - **Navigation**
+
+- **Hero Image**
+
+- **Call to Action Button**
+
+- **Budget Slider**
+
+- **Destinations based on budget**
+
+- **Default Destinations**
+
+- **Budget Calculator**
+
+- **Subscription form**
+
+- **About us**
 
 - **Footer**
 
