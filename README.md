@@ -38,6 +38,8 @@ Do you want to see the world? Do you have a budget? Do you know you can have bot
 
 - **Budget Calculator**
 
+- - **Interactive Map**
+
 - **Subscription form**
 
 - **About us**
