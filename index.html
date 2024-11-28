@@ -42,7 +42,35 @@
     <section>
     </section>
 
-    <section>
+    <section id="budget-calculator">
+        <div class="container">
+            <h2 class="text-center">Budget Calculator</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="destination" class="form-label">Destination</label>
+                    <input type="text" class="form-control" id="destination" aria-describedby="destinationHelp">
+                    <div id="destinationHelp" class="form-text">Enter the destination you want to visit.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="duration" class="form-label">Duration</label>
+                    <input type="number" class="form-control" id="duration" aria-describedby="durationHelp">
+                    <div id="durationHelp" class="form-text">Enter the number of days you want to stay.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="people" class="form-label">Number of People</label>
+                    <input type="number" class="form-control" id="people" aria-describedby="peopleHelp">
+                    <div id="peopleHelp" class="form-text">Enter the number of people travelling.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="budget" class="form-label">Budget</label>
+                    <input type="number" class="form-control" id="budget" aria-describedby="budgetHelp">
+                    <div id="budgetHelp" class="form-text">Enter the total budget you have.</div>
+                </div>
+                <div class="container-md ">
+                    <button type="submit" class="btn btn-primary">Calculate</button>
+                </div>
+            </form>
+        </div>
     </section>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
