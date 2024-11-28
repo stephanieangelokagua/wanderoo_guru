@@ -3,7 +3,7 @@
     --orange: #ffa673;
     --green: #4a7a7b;
     --white: #fbfeff;
-    --timber: #e7e1db;
+    --timber: #e7e1db60;
     --black: #0d0f11;
     /* ex.. call with -background-color var(--orange) */  
 }
@@ -37,6 +37,37 @@ body {
     width: 100%;
     height: 90%;
 }
+
+.card {
+    background-color: var(--timber);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+.card:hover{
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.719);
+}
+
+.btn-primary {
+    background-color: var(--green);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: var(--orange);
+    color: var(--green);
+}
+
+
+
 /* crops budget calculator image height on mobile */
 @media (max-width: 767px) {
     .img-crop {
