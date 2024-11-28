@@ -16,6 +16,12 @@ Do you want to see the world? Do you have a budget? Do you know you can have bot
 <a id="ux-design"></a>
 ## UX Design
 
+
+## Colours
+The color scheme is inspired by the vibrant and captivating hero image that greets users upon landing on the site. The primary colors were carefully selected to reflect the adventurous and budget-friendly spirit of the platform. These colors were then fine-tuned to create a balanced palette that is both visually appealing and functional, ensuring readability and a pleasant user experience whilst maintaining a professional and trustworthy appearance.
+
+![Color Scheme](images/readme-images/colors.png)
+
 ### Wireframe Design
 
 <a id="user-stories"></a>
