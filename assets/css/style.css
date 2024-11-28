@@ -33,7 +33,7 @@ body {
 }
 
 .form-range{
-    width: 50%;
+    width: 100%;
 }
 
 #page-footer{
@@ -84,6 +84,16 @@ body {
 @media (max-width: 767px) {
     .img-crop {
         height: 200px; 
+    }
+}
+
+@media (min-width: 992px) {
+    .form-range {
+        width: 70%;
+    }
+
+    #hero{
+        padding: 150px 80px;
     }
 }
 
