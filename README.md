@@ -13,9 +13,10 @@ Do you want to see the world? Do you have a budget? Do you know you can have bot
 3. [Features](#features)
 4. [A.I. Integration](#ai-integration)
 5. [Testing](#testing)
-6. [Deployment](#deployment)
-7. [Credits/Technologies Used](#credits)
-8. [Future Features](#future-features)
+6. [Bugs](#bugs)
+7. [Deployment](#deployment)
+8. [Credits/Technologies Used](#credits)
+9. [Future Features](#future-features)
 
 <a id="ux-design"></a>
 ## UX Design
@@ -100,6 +101,21 @@ Copilot was employed to generate strategic planning ideas for the team. These AI
 - Javascript
 
 ## Bugs
+
+### Bug 1
+
+![Bug 1](assets/images/readme-images/bug1.png)
+
+Fix
+
+- Removed links to the manifest as not required at present but maybe for future development of a Progressive Web App (PWA)
+
+### Bug 2
+ - Hero image not displaying.
+
+Fix
+
+After exploring potential errors in the code such as unclosed blocks and wrongly addressed links, it was recognised that the error was due to a misaligniment of variables set in the root of the css file. Aligning these variables in the css file resulted in fixing the issue.
 
 <a id="deployment"></a>
 ## Deployment
