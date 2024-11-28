@@ -37,7 +37,6 @@ The color scheme is inspired by the vibrant and captivating hero image that gree
 ![Color Scheme](assets/images/readme-images/colors.png)
 
 
-
 <a id="user-stories"></a>
 ## User Stories
 
