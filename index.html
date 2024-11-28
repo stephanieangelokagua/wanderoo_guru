@@ -73,9 +73,11 @@
         </div>
     </section>
 
-    <section id="subscribe-section">
-        <button class="btn btn-success" id="subscribe-button" type="button" data-bs-target="#exampleModalToggle"
+    <section id="subscribe-section" class="mt-3 mb-4">
+        <div class="d-flex justify-content-center">
+            <button class="btn btn-success" id="subscribe-button" type="button" data-bs-target="#exampleModalToggle"
             data-bs-toggle="modal">Subscribe!</button>
+        </div>    
     </section>
 
     <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
@@ -83,15 +85,24 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Subscribe</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    Show a second modal and hide this one with the button below.
+                    <!--Sign up form-->
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Your name</label>
+                        <input type="text" class="form-control" id="exampleFormControlTextarea1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
                 </div>
                 <div class="modal-footer">
-                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open
-                        second modal</button>
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                        data-bs-toggle="modal">Subscribe</button>
                 </div>
             </div>
         </div>
@@ -101,15 +112,11 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Success</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    Hide this modal and show the first with the button below.
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to
-                        first</button>
+                    You have successfully subscribed to our newsletter!!!
                 </div>
             </div>
         </div>
