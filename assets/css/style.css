@@ -2,8 +2,8 @@
     --orange: #ffa673;
     --green: #4a7a7b;
     --white: #fbfeff;
-        --timber: #e7e1db;
-        --black: #0d0f11;
+    --timber: #e7e1db;
+    --black: #0d0f11;
     /* ex.. call with -background-color var(--orange) */  
     };
 
@@ -12,5 +12,19 @@
     background-size: cover;
     background-position: center;
     padding: 80px 80px;
-      
+    
 }
+/* crops budget calculator image when screen width changes */
+.img-crop {
+    object-fit: cover;
+    width: 100%;
+    height: 90%;
+}
+/* crops budget calculator image height on mobile */
+@media (max-width: 767px) {
+    .img-crop {
+        height: 200px; 
+    }
+}
+
+
