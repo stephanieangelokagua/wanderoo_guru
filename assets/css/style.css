@@ -39,9 +39,18 @@ body {
 #page-footer{
     background-color: var(--green);
 }
+
+#page-footer #team-logo{
+    height: 110px;
+}
+
+#page-footer a{
+    text-decoration: none;
+    color: var(--white);
+}
 .social-links{
     font-size: 30px;
-    color: var(--white);
+    
 }
 /* crops budget calculator image when screen width changes */
 .img-crop {
