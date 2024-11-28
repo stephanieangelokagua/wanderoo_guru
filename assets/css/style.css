@@ -5,7 +5,7 @@
     --timber: #e7e1db;
     --black: #0d0f11;
     /* ex.. call with -background-color var(--orange) */  
-    };
+}
 
 #hero{
     background-image: url('../images/hero-1280x850.webp');
