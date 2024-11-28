@@ -1,0 +1,7 @@
+#hero{
+    background-image: url('../images/hero-1280x850.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 80px;
+      
+}
