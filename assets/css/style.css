@@ -28,8 +28,16 @@ body {
     background-image: url('../images/hero-1280x850.webp');
     background-size: cover;
     background-position: center;
-    padding: 80px 80px;
+    padding: 100px 80px;
     
+}
+
+#page-footer{
+    background-color: var(--green);
+}
+.social-links{
+    font-size: 30px;
+    color: var(--white);
 }
 /* crops budget calculator image when screen width changes */
 .img-crop {
