@@ -9,13 +9,13 @@ Do you want to see the world? Do you have a budget? Do you know you can have bot
     - [Wireframe Design](#wireframe-design)
     - [Hero Image](#hero-image)
     - [Colours](#colours)
-
 2. [User Stories](#user-stories)
 3. [Features](#features)
-4. [Testing](#testing)
-5. [Deployment](#deployment)
-6. [Credits/Technologies Used](#credits)
-7. [Future Features](#future-features)
+4. [A.I. Integration](#ai-integration)
+5. [Testing](#testing)
+6. [Deployment](#deployment)
+7. [Credits/Technologies Used](#credits)
+8. [Future Features](#future-features)
 
 <a id="ux-design"></a>
 ## UX Design
@@ -58,7 +58,7 @@ The color scheme is inspired by the vibrant and captivating hero image that gree
 
 - **Budget Calculator**
 
-- - **Interactive Map**
+- **Interactive Map**
 
 - **Subscription form**
 
@@ -67,6 +67,23 @@ The color scheme is inspired by the vibrant and captivating hero image that gree
 - **Footer**
 
 <a id="testing"></a>
+
+## A.I. Integration
+
+Copilot was employed to generate strategic planning ideas for the team. These AI-generated suggestions were subsequently refined to align with the specific project requirements.
+
+**Idea Generation**
+
+- Identifing popular holiday destinations from the UK, which served as the foundational dataset for our resort catalog.
+
+- Generate logo designs based on specified instructions.
+
+**Development Support**
+
+-
+
+-
+
 ## Testing
 
 ### Manual Testing
@@ -91,9 +108,25 @@ The color scheme is inspired by the vibrant and captivating hero image that gree
 <a id="credits"></a>
 ## Credits
 
+
 ### Content
 
+### Technologies
+
+- [Leaflet](https://leafletjs.com/reference.html) - Open source street map, data available under the Open Database License.
+
+
 ### Media
+
+- Images to webp [FreeConvert](https://www.freeconvert.com)
+
+- Hero image [pexels](https://images.pexels.com/photos/165505/pexels-photo-165505.jpeg)
+
+- Holiday location images [Pixabay](https://pixabay.com)
+
+- Favicon converter [Favicon.io](https://favicon.io)
+
+- Copilot used for logo generating of favicon and Script Shifters emblem
 
 <a id="future-features"></a>
 ## Future Features
