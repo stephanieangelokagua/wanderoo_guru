@@ -9,6 +9,7 @@ Do you want to see the world? Do you have a budget? Do you know you can have bot
     - [Wireframe Design](#wireframe-design)
     - [Hero Image](#hero-image)
     - [Colours](#colours)
+    - [Fonts](#fonts)
 2. [User Stories](#user-stories)
 3. [Features](#features)
 4. [A.I. Integration](#ai-integration)
@@ -37,6 +38,20 @@ The color scheme is inspired by the vibrant and captivating hero image that gree
 
 ![Color Scheme](assets/images/readme-images/colors.png)
 
+
+## Fonts
+
+![Fonts](assets/images/readme-images/fonts.png)
+
+### Kanit font
+A visually striking font that captures attention and enhances the overall aesthetic of the design.
+
+### Gloria Hallelujah
+A playful and handwritten font that complements the adventurous and budget-friendly vibe of the platform.
+
+### Lexend font
+
+Easy read fonts that have been developed to  reduce reading fatigue and make reading more accessible for those with reading difficulties.
 
 <a id="user-stories"></a>
 ## User Stories
@@ -129,7 +144,6 @@ After exploring potential errors in the code such as unclosed blocks and wrongly
 ### Technologies
 
 - [Leaflet](https://leafletjs.com/reference.html) - Open source street map, data available under the Open Database License.
-
 
 ### Media
 
