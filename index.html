@@ -26,136 +26,142 @@
     <title>Wanderoo Guru</title>
 </head>
 
-    <body>
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Wanderoo Guru</a>
-                <button class="navbar-toggler" type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ms-auto">
-                        <a class="nav-link" href="#">About</a>
-                        <a class="nav-link" href="#">Destinations</a>
-                        <a class="nav-link" href="#">Budget Calculator</a>
-                        <a class="nav-link"
-                            href="#subscribe-section">Subscribe</a>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Wanderoo Guru</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">Destinations</a>
+                    <a class="nav-link" href="#">Budget Calculator</a>
+                    <a class="nav-link" href="#subscribe-section">Subscribe</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="hero" class="mx-2">
+        <h1 class="text-center">Explore the world without breaking your
+            bank!</h1>
+        <p class="fs-5 lead text-center">Explore different destinations that suit your budget best!</p>
+        <div class="d-flex justify-content-center slider-container">
+            <label for="customRange2" class="form-label"></label>
+            <input type="range" class="form-range" min="0" max="500" id="customRange2">
+        </div>
+    </section>
+    <section class="mx-2">
+        <!-- Destinations -->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center mb-3">Top Destinations</h2>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="assets/images/France-Paris-640-427.webp" class="card-img-top" alt="Destination 1">
+                        <div class="card-body flex-grow-1 d-flex flex-column">
+                            <h5 class="card-title">France</h5>
+                            <p class="card-text">Discover the timeless charm and romance of Paris, where every corner
+                                tells a story and every moment is a memory in the making.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="assets/images/Greece-Crete-640-427.webp" class="card-img-top" alt="Destination 1">
+                        <div class="card-body flex-grow-1 d-flex flex-column">
+                            <h5 class="card-title">Crete</h5>
+                            <p class="card-text">Explore the stunning landscapes and rich history of Crete, where
+                                ancient ruins meet breathtaking beaches and vibrant local culture.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="assets/images/Italy-Venice-640-427.webp" class="card-img-top" alt="Destination 1">
+                        <div class="card-body flex-grow-1 d-flex flex-column">
+                            <h5 class="card-title">Venice</h5>
+                            <p class="card-text">Experience the enchanting canals and historic charm of Venice, where
+                                every gondola ride and hidden alleyway reveals a new adventure.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="assets/images/Portugal- Lisbon-640-427.webp" class="card-img-top" alt="Destination 1">
+                        <div class="card-body flex-grow-1 d-flex flex-column">
+                            <h5 class="card-title">Lisbon</h5>
+                            <p class="card-text">Discover the vibrant culture and stunning architecture of Lisbon, where
+                                historic trams and picturesque streets lead to unforgettable experiences.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="assets/images/Spain-Mallorca-640-427.webp" class="card-img-top" alt="Destination 1">
+                        <div class="card-body flex-grow-1 d-flex flex-column">
+                            <h5 class="card-title">Mallorca</h5>
+                            <p class="card-text">Uncover the breathtaking beauty of Mallorca, where pristine beaches,
+                                crystal-clear waters, and charming villages create a perfect Mediterranean escape.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="assets/images/Turkey-Istanbul-640-427.jpg" class="card-img-top" alt="Destination 1">
+                        <div class="card-body flex-grow-1 d-flex flex-column">
+                            <h5 class="card-title">Istanbul</h5>
+                            <p class="card-text">Immerse yourself in the rich history and vibrant culture of Istanbul,
+                                where East meets West and every street is a journey through time.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="assets/images/UK-London-640x427.webp" class="card-img-top" alt="Destination 1">
+                        <div class="card-body flex-grow-1 d-flex flex-column">
+                            <h5 class="card-title">London</h5>
+                            <p class="card-text">Experience the iconic landmarks and vibrant culture of London, where
+                                history meets modernity and every visit offers something new to discover.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 d-flex flex-column">
+                        <img src="assets/images/USA-NewYork-640x427.webp" class="card-img-top" alt="Destination 1">
+                        <div class="card-body flex-grow-1 d-flex flex-column">
+                            <h5 class="card-title">New York</h5>
+                            <p class="card-text">Explore the vibrant energy and iconic skyline of New York, where every
+                                street pulses with life and every visit promises new adventures.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Learn More</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </nav>
-        <section id="hero" class="mx-2">
-            <h1 class="text-center">Explore the world without breaking your
-                bank!</h1>
-            <p class="fs-5 lead text-center">Explore different destinations that suit your budget best!</p>
-        </section>
-        <section class="mx-2">
-            <!-- Destinations -->
-            <div class="container mt-5">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="text-center mb-3">Top Destinations</h2>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="assets/images/France-Paris-640-427.webp" class="card-img-top" alt="Destination 1">
-                            <div class="card-body flex-grow-1 d-flex flex-column">
-                                <h5 class="card-title">France</h5>
-                                <p class="card-text">Discover the timeless charm and romance of Paris, where every corner tells a story and every moment is a memory in the making.</p>
-                                <a href="#" class="btn btn-primary mt-auto">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="assets/images/Greece-Crete-640-427.webp" class="card-img-top" alt="Destination 1">
-                            <div class="card-body flex-grow-1 d-flex flex-column">
-                                <h5 class="card-title">Crete</h5>
-                                <p class="card-text">Explore the stunning landscapes and rich history of Crete, where ancient ruins meet breathtaking beaches and vibrant local culture.</p>
-                                <a href="#" class="btn btn-primary mt-auto">Learn More</a>
-                            </div>
-                        </div>
-                    </div>                   
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="assets/images/Italy-Venice-640-427.webp" class="card-img-top" alt="Destination 1">
-                            <div class="card-body flex-grow-1 d-flex flex-column">
-                                <h5 class="card-title">Venice</h5>
-                                <p class="card-text">Experience the enchanting canals and historic charm of Venice, where every gondola ride and hidden alleyway reveals a new adventure.</p>
-                                <a href="#" class="btn btn-primary mt-auto">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="assets/images/Portugal- Lisbon-640-427.webp" class="card-img-top" alt="Destination 1">
-                            <div class="card-body flex-grow-1 d-flex flex-column">
-                                <h5 class="card-title">Lisbon</h5>
-                                <p class="card-text">Discover the vibrant culture and stunning architecture of Lisbon, where historic trams and picturesque streets lead to unforgettable experiences.</p>
-                                <a href="#" class="btn btn-primary mt-auto">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="assets/images/Spain-Mallorca-640-427.webp" class="card-img-top" alt="Destination 1">
-                            <div class="card-body flex-grow-1 d-flex flex-column">
-                                <h5 class="card-title">Mallorca</h5>
-                                <p class="card-text">Uncover the breathtaking beauty of Mallorca, where pristine beaches, crystal-clear waters, and charming villages create a perfect Mediterranean escape.</p>
-                                <a href="#" class="btn btn-primary mt-auto">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="assets/images/Turkey-Istanbul-640-427.jpg" class="card-img-top" alt="Destination 1">
-                            <div class="card-body flex-grow-1 d-flex flex-column">
-                                <h5 class="card-title">Istanbul</h5>
-                                <p class="card-text">Immerse yourself in the rich history and vibrant culture of Istanbul, where East meets West and every street is a journey through time.</p>
-                                <a href="#" class="btn btn-primary mt-auto">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="assets/images/UK-London-640x427.webp" class="card-img-top" alt="Destination 1">
-                            <div class="card-body flex-grow-1 d-flex flex-column">
-                                <h5 class="card-title">London</h5>
-                                <p class="card-text">Experience the iconic landmarks and vibrant culture of London, where history meets modernity and every visit offers something new to discover.</p>
-                                <a href="#" class="btn btn-primary mt-auto">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="assets/images/USA-NewYork-640x427.webp" class="card-img-top" alt="Destination 1">
-                            <div class="card-body flex-grow-1 d-flex flex-column">
-                                <h5 class="card-title">New York</h5>
-                                <p class="card-text">Explore the vibrant energy and iconic skyline of New York, where every street pulses with life and every visit promises new adventures.</p>
-                                <a href="#" class="btn btn-primary mt-auto">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        </div>
+    </section>
+    <!-- Budget calculator -->
+    <section id="budget-calculator" class="mx-3">
+        <div class="container-fluid d-flex flex-column flex-md-row justify-content-around">
+            <div class="pt-5 px-2 d-flex justify-content-center">
+                <img src="assets/images/pexels-freestockpro-6755222.webp" alt="Budget Calculator"
+                    class="img-fluid rounded img-crop">
             </div>
-        </section>
-<!-- Budget calculator -->
-        <section id="budget-calculator" class="mx-3">
-            <div
-                class="container-fluid d-flex flex-column flex-md-row justify-content-around">
-                <div class="pt-5 px-2 d-flex justify-content-center">
-                    <img src="assets/images/pexels-freestockpro-6755222.webp"
-                        alt="Budget Calculator"
-                        class="img-fluid rounded img-crop">
-                </div>
-                <div class="col-md-8">
-                    <h2 class="text-center">Budget Calculator</h2>
+            <div class="col-md-8">
+                <h2 class="text-center">Budget Calculator</h2>
 
                 <form>
                     <div class="mb-3">
@@ -191,37 +197,34 @@
         </div>
     </section>
 
-        <section id="subscribe-section" class="mt-3 mb-4 mx-3">
-            <div class="d-flex justify-content-center">
-                <button class="btn btn-success" id="subscribe-button"
-                    type="button" data-bs-target="#exampleModalToggle"
-                    data-bs-toggle="modal">Subscribe!</button>
-            </div>
-        </section>
+    <section id="subscribe-section" class="mt-3 mb-4 mx-3">
+        <div class="d-flex justify-content-center">
+            <button class="btn btn-success" id="subscribe-button" type="button" data-bs-target="#exampleModalToggle"
+                data-bs-toggle="modal">Subscribe!</button>
+        </div>
+    </section>
 
-        
-        <section id="page-footer" class="container mx-3">
-            <div class="row">
-                <div class="column d-flex justify-content-around m-3">
-                    <a href="https://www.x.com/" target="_blank"><i class="fa-solid fa-x social-links"></i></a>
-                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram social-links"></i></a>
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook social-links"></i></a>
-                    
+
+    <section id="page-footer" class="container mx-3">
+        <div class="row">
+            <div class="column d-flex justify-content-around m-3">
+                <a href="https://www.x.com/" target="_blank"><i class="fa-solid fa-x social-links"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i
+                        class="fa-brands fa-instagram social-links"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i
+                        class="fa-brands fa-facebook social-links"></i></a>
+
+            </div>
+            <div class="column col-12 d-flex justify-content-between">
+                <div class="col-6"><img src="assets/images/script-shifter-300x300.webp" alt="Team logo">
                 </div>
-                <div class="column col-12 d-flex justify-content-between">
-                    <div class="col-6"><img
-                            src="assets/images/script-shifter-300x300.webp"
-                            alt="Team logo">
-                    </div>
-                    <div class="col-6 d-flex justify-content-around">
-                        <a
-                            href="https://github.com/stephanieangelokagua">Stephanie</a><a
-                            href="https://github.com/NickOcaz">Nick</a><a
-                            href="https://github.com/Tito-Daramola">Tito</a>
-                    </div>
+                <div class="col-6 d-flex justify-content-around">
+                    <a href="https://github.com/stephanieangelokagua">Stephanie</a><a
+                        href="https://github.com/NickOcaz">Nick</a><a href="https://github.com/Tito-Daramola">Tito</a>
                 </div>
             </div>
-            <div class="column d-flex justify-content-center">About us</div>
+        </div>
+        <div class="column d-flex justify-content-center">About us</div>
         </div>
     </section>
 
