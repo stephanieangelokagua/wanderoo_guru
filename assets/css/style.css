@@ -32,6 +32,10 @@ body {
     
 }
 
+.form-range{
+    width: 50%;
+}
+
 #page-footer{
     background-color: var(--green);
 }
