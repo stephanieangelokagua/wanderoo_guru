@@ -10,8 +10,8 @@
 
 h1{
     font-family: 'Kanit', sans-serif;
-    font-style: italic;
-    font-weight: 800;
+
+    font-weight: 500;
 }
 
 h2{
@@ -22,6 +22,7 @@ body {
     background-color: var(--white);
     color: var(--black);
 }
+
 
 #hero{
     background-image: url('../images/hero-1280x850.webp');
