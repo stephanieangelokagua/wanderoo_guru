@@ -113,7 +113,7 @@ function possibleDestinations() {
 
         heading_for_card_section.className = "col-12"
         const column_card = document.createElement("div")
-        column_card.className = "col-4"
+        column_card.className = "col-lg-4"
         const card = document.createElement("div")
         card.className = "card"
         card.innerHTML = `<img src="${destination.image}" class="card-img-top" alt="...">
