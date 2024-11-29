@@ -119,10 +119,18 @@ body {
     margin: 0px;
 }
 
-.form-range {
-    width: 100%;
+.form-range img {
+    width: 50%;
+    height: 50%;
 }
 
+/* About us page */
+.about-us-img {
+    width: 50%;
+    height: 50%;;
+}
+
+/* Footer styles */
 #page-footer {
     background: linear-gradient(180deg, var(--black), var(--green));
 }
