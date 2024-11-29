@@ -95,6 +95,13 @@ const cardContainer = document.getElementById("cardContainer")
 
 function possibleDestinations() {
     const userBudget = parseInt(budgetSlider.value) // get budget entered by user
+    const heading_div = document.createElement("div")
+    const heading_for_card_section = document.createElement("h2")
+    heading_for_card_section.className = "text-center"
+    heading_for_card_section.textContent = "Top Destinations for your budget!"
+    heading_div.appendChild(heading_for_card_section)
+    cardContainer.appendChild(heading_div)
+
     filterDestinationsByBudget = destinations.filter((destination) => destination.budget <= userBudget) //filter destinations by budget
     if (filterDestinationsByBudget.length === 0) {
         cardContainer.innerHTML = '<p>No destinations available for your budget!</p>'
@@ -103,6 +110,8 @@ function possibleDestinations() {
     }
 
     filterDestinationsByBudget.forEach((destination) => {
+
+        heading_for_card_section.className = "col-12"
         const column_card = document.createElement("div")
         column_card.className = "col-4"
         const card = document.createElement("div")
@@ -111,6 +120,7 @@ function possibleDestinations() {
   <div class="card-body">
     <p class="card-text">${destination.budget}</p>
   </div>`
+
         column_card.appendChild(card)
         cardContainer.appendChild(column_card)
 
