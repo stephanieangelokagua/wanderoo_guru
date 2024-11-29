@@ -23,8 +23,7 @@
     <!--Personal Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/javascript/map.js"></script>
-    <script src="assets/javascript/map.js"></script>
-  <!-- Link to the Leaflet CSS file for map styling -->
+   <!-- Link to the Leaflet CSS file for map styling -->
   <link rel="stylesheet"
   href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
@@ -81,8 +80,10 @@
                             <h5 class="card-title">France</h5>
                             <p class="card-text">Discover the timeless charm and romance of Paris, where every corner
                                 tells a story and every moment is a memory in the making.</p>
-                            <a id="more-info" class="btn btn-primary mt-auto">Learn More</a>
+                            <a class="btn btn-primary mt-auto">Learn More</a>
                         </div>
+                        <button onclick="more-info">More Infor</button>
+
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
@@ -355,6 +356,15 @@
             </div>
         </div>
     </div>
+
+<!-- location more info modal -->
+<div id="destinationModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); background-color:white; padding:20px; box-shadow:0 0 10px rgba(0, 0, 0, 0.5); z-index:1000;">
+    <h2>More Information</h2>
+    <p>This is some more information about the selected location.</p>
+    <img src="" style="width:100%; height:auto;" alt="Destination Image">
+    <button id="book-now">Book Now</button>
+    <button id="close-modal">Close</button>
+</div>
 
     <!--Fontawesome toolkit-->
     <script src="https://kit.fontawesome.com/ee48fb666c.js" crossorigin="anonymous"></script>

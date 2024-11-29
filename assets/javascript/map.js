@@ -56,4 +56,33 @@ document.addEventListener('DOMContentLoaded', function () {
                 break;
         }
     });
+
+    // Function to show the modal with image and text from the clicked card
+    function showModal(imageSrc, title, text) {
+        var modal = document.getElementById('destinationModal');
+        modal.querySelector('img').src = imageSrc;
+        modal.querySelector('h2').innerText = title;
+        modal.querySelector('p').innerText = text;
+        modal.style.display = 'block';
+    }
+
+    // Add event listeners to buttons to show the modal
+    document.querySelectorAll('.card .btn').forEach(function(button) {
+        button.addEventListener('click', function() {
+            var card = this.closest('.card');
+            var imageSrc = card.querySelector('img').src;
+            var title = card.querySelector('.card-title').innerText;
+            var text = card.querySelector('.card-text').innerText;
+            showModal(imageSrc, title, text);
+        });
+    });
+});
+
+document.getElementById('close-modal').addEventListener('click', function () {
+    var modal = document.getElementById('destinationModal');
+    modal.style.display = 'none';
+});
+
+document.getElementById('book-now').addEventListener('click', function () {
+    alert('Booking confirmed!');
 });
