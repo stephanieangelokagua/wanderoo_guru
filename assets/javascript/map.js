@@ -76,6 +76,22 @@ document.addEventListener('DOMContentLoaded', function () {
             showModal(imageSrc, title, text);
         });
     });
+
+    // Close modal when clicking outside of it
+    window.addEventListener('click', function(event) {
+        var modal = document.getElementById('destinationModal');
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    });
+
+    // Close modal when the "More Info" button is clicked
+    document.querySelectorAll('.card button[onclick="more-info"]').forEach(function(button) {
+        button.addEventListener('click', function() {
+            var modal = document.getElementById('destinationModal');
+            modal.style.display = 'none';
+        });
+    });
 });
 
 document.getElementById('close-modal').addEventListener('click', function () {
