@@ -53,3 +53,29 @@ function updateRangeFromInput(rangeId, inputId) {
     var input = document.getElementById(inputId);
     range.value = input.value;
 }
+
+//budget calculation function
+function calculateBudget() {
+    let duration = parseInt(document.getElementById("duration").value);
+    let numPeople  = parseInt(document.getElementById("people").value);
+    let costTransport = parseInt(document.getElementById("flights").value);
+    let foodCostPd  = parseInt(document.getElementById("range1Value").value);
+    let transportCostPd = parseInt(document.getElementById("range2Value").value);
+    let attractionCostPd = parseInt(document.getElementById("range3Value").value);
+    
+    if (isNaN(duration) && isNaN(numPeople) && isNaN(costTransport)) {
+        document.getElementById("budgetResult").innerText = "Your trip needs at least a one day duration, at least one person and a valid transport cost (if free input 0)";
+    } else if(isNaN(duration)  || isNaN(numPeople)) {
+        document.getElementById("budgetResult").innerText = "Your trip needs at least a one day duration and atleast one person";
+    } else if (isNaN(costTransport)) {
+        document.getElementById("budgetResult").innerText = "Your trip needs a valid transport cost, if free input 0";
+    } else if (duration === 0 || numPeople === 0) {
+        document.getElementById("budgetResult").innerText = "Your trip needs at least a one day duration and at least one person";
+    } else {
+        let budget = (costTransport*numPeople)+((duration*numPeople))*((foodCostPd+transportCostPd+attractionCostPd));
+
+        document.getElementById("budgetResult").innerHTML =`Your Budget: £${budget}`;
+        console.log(budget);
+    }
+
+}
