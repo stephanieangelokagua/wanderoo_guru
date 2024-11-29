@@ -40,3 +40,16 @@ const destinations = [{
     image: "assets/images/USA-NewYork-640x427.webp"
 }
 ];
+
+// range value live update function
+function updateInputFromRange(rangeId, inputId) {
+    var range = document.getElementById(rangeId);
+    var input = document.getElementById(inputId);
+    input.value = range.value;
+}
+
+function updateRangeFromInput(rangeId, inputId) {
+    var range = document.getElementById(rangeId);
+    var input = document.getElementById(inputId);
+    range.value = input.value;
+}
