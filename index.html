@@ -194,26 +194,30 @@
 
 
 <!-- map -->
-    <!-- Dropdown menu for selecting a holiday location -->
-     <div class = "map-container">
-    <select id="holiday-locations">
-        <option value disabled selected>Select a location</option>
-        <option value="crete">Crete</option>
-        <option value="istanbul">Istanbul</option>
-        <option value="lisbon">Lisbon</option>
-        <option value="london">London</option>
-        <option value="mallorca">Mallorca</option>
-        <option value="new-york">New York</option>
-        <option value="paris">Paris</option>
-        <option value="venice">Venice</option>
-    </select>
-    <br>
-    
-    <!-- Div element to hold the map -->
-    <div id="map"></div>
+     <!-- Label for the dropdown menu -->
+     <label for="holiday-locations">Preview destination</label>
+           
+     <!-- Dropdown menu for selecting a holiday location -->
+     <select id="holiday-locations">
+         <option value disabled selected>Select a location</option>
+         <option value="crete">Crete</option>
+         <option value="istanbul">Istanbul</option>
+         <option value="lisbon">Lisbon</option>
+         <option value="london">London</option>
+         <option value="mallorca">Mallorca</option>
+         <option value="new-york">New York</option>
+         <option value="paris">Paris</option>
+         <option value="venice">Venice</option>
+     </select>
+     <!-- Div element to hold the map -->
+     <div id="map"></div>
 
 
-</div>
+
+        <!-- Link to the Leaflet JavaScript file for map functionality -->
+ <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+ <!-- Link to the external JavaScript file for custom map logic -->
+ <script src="map.js"></script>
 
 <!-- end map section-->
 

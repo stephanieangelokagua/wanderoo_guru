@@ -115,14 +115,13 @@ body {
     color: var(--green);
 }
 
-/* maps */
 
     
     /* container for the for and the map */
     #map {
-        height:100px;
-        width: 100%; 
-        border: 10px solid rgb(235, 19, 19);
+        height:300px;
+        width: 700px; 
+        
         border-radius: 10px;
         box-shadow: 0 10px 10px 10px rgba(black, 0.2); 
         overflow: hidden;
