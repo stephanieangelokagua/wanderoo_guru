@@ -10,7 +10,7 @@
     /* ex.. call with -background-color var(--orange) */
 }
 
-h1,h2{
+h1,h2,h5{
     font-family: "Caveat Brush", serif;
     font-weight: 500;
 }
