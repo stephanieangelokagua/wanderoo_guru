@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lato:wght@300&display=swap');
+
 :root {
     --orange: #ffa673;
     --green: #4a7a7b;
@@ -7,8 +10,8 @@
     /* ex.. call with -background-color var(--orange) */
 }
 
-h1 {
-    font-family: 'Kanit', sans-serif;
+h1,h2{
+    font-family: "Caveat Brush", serif;
     font-weight: 500;
 }
 
@@ -16,6 +19,10 @@ h1 {
     font-family: "Caveat Brush", serif;
 }
 
+#hero h1{
+    color:antiquewhite;
+    font-size: 50px;
+}
 #hero p{
     color: wheat;
 }
@@ -48,10 +55,6 @@ input[type="range"]::-ms-thumb {
     /* Desired color for the thumb */
     border-radius: 50%;
     cursor: pointer;
-}
-
-h2 {
-    font-family: 'Lexend', sans-serif;
 }
 
 body {
