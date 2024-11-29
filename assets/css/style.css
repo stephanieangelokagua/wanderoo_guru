@@ -31,6 +31,16 @@ h1,h2{
     font-weight: bold;
 }
 
+#navigation_bar .active{
+    color: var(--orange);
+    font-weight: 500;
+}
+
+#navigation_bar .nav-link:hover{
+    text-decoration: underline;
+}
+
+
 /* Need different thumbs for different browsers thus 3 styles are needed for cross broswer compatability */
 
 /* WebKit Slider Thumb */
