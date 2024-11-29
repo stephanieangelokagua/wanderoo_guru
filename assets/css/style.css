@@ -115,19 +115,19 @@ body {
     color: var(--green);
 }
 
-.map-container {
-    height: 400px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* maps */
 
-#map {
-    height: 100%;
-    width: 100%;
+    
+    /* container for the for and the map */
+    #map {
+        height:100px;
+        width: 100%; 
+        border: 10px solid rgb(235, 19, 19);
+        border-radius: 10px;
+        box-shadow: 0 10px 10px 10px rgba(black, 0.2); 
+        overflow: hidden;
+    }
 
-}
 
 /* crops budget calculator image height on mobile */
 @media (max-width: 767px) {

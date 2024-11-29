@@ -22,6 +22,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
     <!--Personal Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
     <!-- Page title -->
     <title>Wanderoo Guru</title>
 </head>
@@ -190,6 +191,34 @@
                         <div id="destinationHelp" class="form-text">Enter
                             the destination you want to visit.</div>
                     </div>
+
+
+<!-- map -->
+    <!-- Dropdown menu for selecting a holiday location -->
+     <div class = "map-container">
+    <select id="holiday-locations">
+        <option value disabled selected>Select a location</option>
+        <option value="crete">Crete</option>
+        <option value="istanbul">Istanbul</option>
+        <option value="lisbon">Lisbon</option>
+        <option value="london">London</option>
+        <option value="mallorca">Mallorca</option>
+        <option value="new-york">New York</option>
+        <option value="paris">Paris</option>
+        <option value="venice">Venice</option>
+    </select>
+    <br>
+    
+    <!-- Div element to hold the map -->
+    <div id="map"></div>
+
+
+</div>
+
+<!-- end map section-->
+
+
+
                     <div class="mb-3">
                         <label for="budget" class="form-label">Budget</label>
                         <input type="number" class="form-control" id="budget" aria-describedby="budgetHelp">
@@ -314,6 +343,12 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
     <script src="assets/javascript/index.js"></script>
+
+          <!-- Link to the Leaflet JavaScript file for map functionality -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<!-- Link to the external JavaScript file for custom map logic -->
+<script src="map.js"></script>
+
 </body>
 
 </html>
