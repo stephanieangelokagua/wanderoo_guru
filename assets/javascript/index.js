@@ -94,6 +94,7 @@ destinationButton.addEventListener('click', () => {
 const cardContainer = document.getElementById("cardContainer")
 
 function possibleDestinations() {
+    cardContainer.innerHTML = ``
     const userBudget = parseInt(budgetSlider.value) // get budget entered by user
     const heading_div = document.createElement("div")
     const heading_for_card_section = document.createElement("h2")
