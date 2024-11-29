@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lato:wght@300&display=swap');
+
 :root {
     --orange: #ffa673;
     --green: #4a7a7b;
@@ -7,43 +10,71 @@
     /* ex.. call with -background-color var(--orange) */
 }
 
-h1 {
-    font-family: 'Kanit', sans-serif;
+h1,h2{
+    font-family: "Caveat Brush", serif;
     font-weight: 500;
 }
 
-input[type="range"] {
-    /* Customize the slider track */
-    -webkit-appearance: none;
-    appearance: none;
-    height: 6px;
-    background: #ddd;
-    /* Background color for the track */
-    border-radius: 5px;
-    outline: none;
+#destinations h2{
+    font-family: "Caveat Brush", serif;
+}
+
+#hero h1{
+    color:antiquewhite;
+    font-size: 50px;
+}
+#hero p, #hero label{
+    color: wheat;
+}
+
+#hero label{
+    font-weight: bold;
+}
+
+#navigation_bar .active{
+    color: var(--orange);
+    font-weight: 500;
+}
+
+#navigation_bar .nav-link:hover{
+    text-decoration: underline;
 }
 
 
+/* Need different thumbs for different browsers thus 3 styles are needed for cross broswer compatability */
+
+/* WebKit Slider Thumb */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default appearance */
+    width: 20px;
+    height: 20px;
+    background: var(--green);
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+  }
+  
+/* Firefox Slider Thumb */
 input[type="range"]::-moz-range-thumb {
     width: 20px;
     height: 20px;
-    background: #FF6F61;
-    /* Desired color for the thumb */
+    background: var(--green);
     border-radius: 50%;
     cursor: pointer;
 }
 
+/* IE Slider Thumb */
 input[type="range"]::-ms-thumb {
     width: 20px;
     height: 20px;
-    background: #FF6F61;
-    /* Desired color for the thumb */
+    background: var(--green);
     border-radius: 50%;
     cursor: pointer;
 }
 
-h2 {
-    font-family: 'Lexend', sans-serif;
+#website_icon{
+    font-family: "Caveat Brush", serif;
+    font-size: 30px
 }
 
 body {
@@ -135,6 +166,21 @@ body {
     border-radius: 0px;
     box-shadow: 0 10px 10px 10px rgba(black, 0.2);
     overflow: hidden;
+}
+
+.destinationModal {
+    display:none;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    background-color:white;
+    padding:20px;
+    background-color: yellow;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    z-index:1000;
+    border-radius: 30px;
+    text-align: center;
 }
 
 

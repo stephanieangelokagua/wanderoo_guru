@@ -79,3 +79,22 @@ function calculateBudget() {
     }
 
 }
+
+// dynamically update budgetslider label based on user input
+const budgetSlider = document.getElementById("customRange2") // get the range
+const budgetLabel = document.getElementById("budgetValue") // get label
+budgetLabel.textContent = `£${budgetSlider.value}` // set default label value
+budgetSlider.addEventListener('input', () =>{
+    budgetLabel.textContent = `£${budgetSlider.value}` // update based on user input
+});
+
+const destinationButton = document.getElementById("findButton")
+destinationButton.addEventListener('click', () => {
+    possibleDestinations()
+})
+
+function possibleDestinations(){
+    const userBudget = parseInt(budgetSlider.value) // get budget entered by user
+    filterDestinationsByBudget = destinations.filter((destination) => destination.budget <= userBudget) //filter destinations by budget
+
+}

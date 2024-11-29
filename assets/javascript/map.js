@@ -21,15 +21,15 @@ document.addEventListener('DOMContentLoaded', function () {
         // Add a new marker at the specified latitude and longitude
         marker = L.marker([lat, lng]).addTo(map);
         // Center the map on the new marker with a zoom level of 4
-        map.setView([lat, lng],4 );
+        map.setView([lat, lng], 4);
     }
 
     // Event listener for the dropdown menu
-    document.getElementById('holiday-locations').addEventListener('change', function() {
+    document.getElementById('holiday-locations').addEventListener('change', function () {
         // Get the selected location from the dropdown menu
         var location = this.value;
         // Switch statement to update the map based on the selected location
-        switch(location) {
+        switch (location) {
             case 'london':
                 updateMap(51.509865, -0.118092); // London coordinates
                 break;
@@ -55,5 +55,46 @@ document.addEventListener('DOMContentLoaded', function () {
                 updateMap(38.71667, -9.13333); // Lisbon coordinates
                 break;
         }
+    });
+
+    // Function to show the modal with image and text from the clicked card
+    function showModal(imageSrc, title, text) {
+        var modal = document.getElementById('destinationModal');
+        modal.querySelector('img').src = imageSrc;
+        modal.querySelector('h2').innerText = title;
+        modal.querySelector('p').innerText = text;
+        modal.style.display = 'block';
+    }
+
+    // Add event listeners to buttons to show the modal
+    document.querySelectorAll('.card .btn').forEach(function(button) {
+        button.addEventListener('click', function() {
+            var card = this.closest('.card');
+            var imageSrc = card.querySelector('img').src;
+            var title = card.querySelector('.card-title').innerText;
+            var text = card.querySelector('.card-text').innerText;
+            showModal(imageSrc, title, text);
+        });
+    });
+
+    // Close modal when clicking outside of it
+    window.addEventListener('click', function(event) {
+        var modal = document.getElementById('destinationModal');
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    });
+
+    // Close modal when the close button is clicked
+    document.getElementById('close-modal').addEventListener('click', function () {
+        var modal = document.getElementById('destinationModal');
+        modal.style.display = 'none';
+    });
+
+    // Close modal when the "Book Now" button is clicked
+    document.getElementById('book-now').addEventListener('click', function () {
+        alert('Booking confirmed!');
+        var modal = document.getElementById('destinationModal');
+        modal.style.display = 'none';
     });
 });
