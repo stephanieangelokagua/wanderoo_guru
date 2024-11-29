@@ -67,22 +67,14 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Add event listeners to buttons to show the modal
-    document.querySelectorAll('.card .btn').forEach(function(button) {
-        button.addEventListener('click', function() {
+    document.querySelectorAll('.card .btn').forEach(function (button) {
+        button.addEventListener('click', function () {
             var card = this.closest('.card');
             var imageSrc = card.querySelector('img').src;
             var title = card.querySelector('.card-title').innerText;
             var text = card.querySelector('.card-text').innerText;
             showModal(imageSrc, title, text);
         });
-    });
-
-    // Close modal when clicking outside of it
-    window.addEventListener('click', function(event) {
-        var modal = document.getElementById('destinationModal');
-        if (event.target == modal) {
-            modal.style.display = 'none';
-        }
     });
 
     // Close modal when the close button is clicked
