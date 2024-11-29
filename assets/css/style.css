@@ -10,16 +10,22 @@
     /* ex.. call with -background-color var(--orange) */
 }
 
+
 h1,
-h2 {
+h2,
+h5{
     font-family: "Caveat Brush", serif;
     font-weight: 500;
 }
 
 #destinations h2 {
     font-family: "Caveat Brush", serif;
+    text-align: center;
 }
 
+#cardContainer h2{
+    margin: 40px ;
+}
 #hero h1 {
     color: antiquewhite;
     font-size: 50px;
@@ -207,6 +213,10 @@ button {
     font-size: 1.2rem;
     font-weight: 500;
     margin-top: 1.2rem;
+}
+
+#cardContainer button{
+    margin-top: 0.5rem
 }
 
 button:hover {
