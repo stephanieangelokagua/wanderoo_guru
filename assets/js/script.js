@@ -1,5 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var map = L.map('map').setView([51.505, -0.09], 2); // Set initial zoom level to 2
+    var map = L.map('map', {
+        center: [51.509865, -0.118092], // Default to London
+        zoom: 1,
+        zoomControl: false, // Disable zoom control
+        attributionControl: true // Enable attribution control
+    });
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -15,9 +20,10 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         // Add a new marker at the specified latitude and longitude
         marker = L.marker([lat, lng]).addTo(map);
-        // Center the map on the new marker with a zoom level of 10
-        map.setView([lat, lng], 10);
+        // Center the map on the new marker with a zoom level of 4
+        map.setView([lat, lng],4 );
     }
+
     // Event listener for the dropdown menu
     document.getElementById('holiday-locations').addEventListener('change', function() {
         // Get the selected location from the dropdown menu
