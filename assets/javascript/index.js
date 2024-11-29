@@ -118,8 +118,9 @@ function possibleDestinations() {
         card.className = "card"
         card.innerHTML = `<img src="${destination.image}" class="card-img-top" alt="...">
   <div class="card-body">
-    <p class="card-text">${destination.name}</p>
+    <p class="card-text">${destination.name} </p>
     <p class="card-text">Perfect for a £${destination.budget} budget!</p>
+    <button id="book-now">Book Now</button>
   </div>`
 
         column_card.appendChild(card)

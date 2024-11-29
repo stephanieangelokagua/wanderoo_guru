@@ -9,6 +9,7 @@
     /* ex.. call with -background-color var(--orange) */
 }
 
+
 h1,
 h2,
 h5{
@@ -201,6 +202,10 @@ button {
     font-size: 1.2rem;
     font-weight: 500;
     margin-top: 1.2rem;
+}
+
+#cardContainer button{
+    margin-top: 0.5rem
 }
 
 button:hover {
