@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Function to show the modal with image and text from the clicked card
+    // Function to show the modal location with image and text from the clicked card
     function showModal(imageSrc, title, text) {
         var modal = document.getElementById('destinationModal');
         modal.querySelector('img').src = imageSrc;
