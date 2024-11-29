@@ -3,7 +3,9 @@ document.addEventListener('DOMContentLoaded', function () {
         center: [51.509865, -0.118092], // Default to London
         zoom: 1,
         zoomControl: false, // Disable zoom control
-        attributionControl: true // Enable attribution control
+        attributionControl: true, // Enable attribution control
+        scrollWheelZoom: false, // Disable scroll wheel zoom
+        dragging: false // Disable dragging
     });
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -14,6 +16,10 @@ document.addEventListener('DOMContentLoaded', function () {
     var marker;
     // Function to update the map with a new marker
     function updateMap(lat, lng) {
+        // Enable map interactions
+        map.scrollWheelZoom.enable();
+        map.dragging.enable();
+
         // If a marker already exists, remove it from the map
         if (marker) {
             map.removeLayer(marker);
