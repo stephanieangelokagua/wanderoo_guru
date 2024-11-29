@@ -119,21 +119,32 @@ body {
     margin: 0px;
 }
 
-.form-range {
-    width: 100%;
+.form-range img {
+    width: 50%;
+    height: 50%;
 }
 
+/* About us page */
+.about-us-img {
+    width: 50%;
+    height: 50%;;
+}
+
+/* Footer styles */
 #page-footer {
-    background-color: var(--green);
+    background: linear-gradient(180deg, var(--black), var(--green));
 }
 
 #page-footer #team-logo {
     height: 110px;
+    border: 1px solid var(--black);
+    box-shadow: 1px 1px 15px 2px var(--black);
 }
 
 #page-footer a {
     text-decoration: none;
     color: var(--white);
+    text-shadow: 5px 5px 10px var(--black);
 }
 
 .social-links {
@@ -146,6 +157,7 @@ body {
     object-fit: cover;
     width: 100%;
     height: 90%;
+    
 }
 
 /* style for destination cards */
