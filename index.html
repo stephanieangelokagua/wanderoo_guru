@@ -318,44 +318,7 @@
                                         id="range3" min="0" max="300" value="50"
                                         oninput="updateInputFromRange('range3', 'range3Value')">
                                 </div>
-            <form>
-                <div class="mb-3">
-                    <label for="duration" class="form-label">Duration <i class="fa-solid fa-calendar-days"></i></label>
-                    <input type="number" class="form-control" id="duration" aria-describedby="durationHelp">
-                    <div id="durationHelp" class="form-text">Enter the number of days you want to stay.</div>
-                </div>
-                <div class="mb-3">
-                    <label for="people" class="form-label">Number of People <i class="fa-solid fa-people-group"></i></label>
-                    <input type="number" class="form-control" id="people" aria-describedby="peopleHelp">
-                    <div id="peopleHelp" class="form-text">Enter the number of people travelling.</div>
-                <div class="mb-3">
-                    <label for="flights" class="form-label">Estimated Cost of transportion to destination<i class="fa-solid fa-plane-departure"></i></label>
-                    <input type="number" class="form-control" id="flights" aria-describedby="flightsHelp">
-                    <div id="peopleHelp" class="form-text">Enter the estimated cost of transportation to (and from) destination per person.</div>
-                </div>
-                    <div class="container mt-5">
-                        <div class="row">
-                            <div class="col-md-4 d-flex flex-column align-items-center text-center mb-2">
-                                <label for="range1" class="form-label">Food <i class="fa-solid fa-utensils"></i></label>
-                                <input type="number" id="range1Value" class="form-control mb-2 text-center" value="50" min="0" max="250" oninput="updateRangeFromInput('range1', 'range1Value')">
-                                <input type="range" class="form-range" id="range1" min="0" max="250" value="50" oninput="updateInputFromRange('range1', 'range1Value')">
-                            </div>
-                            <div class="col-md-4 d-flex flex-column align-items-center text-center mb-2">
-                                <label for="range2" class="form-label">Transport <i class="fa-solid fa-taxi"></i></i></label>
-                                <input type="number" id="range2Value" class="form-control mb-2 text-center" value="50" min="0" max="100" oninput="updateRangeFromInput('range2', 'range2Value')">
-                                <input type="range" class="form-range" id="range2" min="0" max="100" value="50" oninput="updateInputFromRange('range2', 'range2Value')">
-                            </div>
-                            <div class="col-md-4 d-flex flex-column align-items-center text-center mb-2">
-                                <label for="range3" class="form-label">Attractions <i class="fa-solid fa-mountain-city"></i></label>
-                                <input type="number" id="range3Value" class="form-control mb-2 text-center" value="50" min="0" max="300" oninput="updateRangeFromInput('range3', 'range3Value')">
-                                <input type="range" class="form-range" id="range3" min="0" max="300" value="50" oninput="updateInputFromRange('range3', 'range3Value')">
-                            </div>
-                        </div>
-                        <div id="destinationHelp"
-                            class="form-text d-flex justify-content-center align text-center">Enter
-                            how much you want to spend on each catagory per
-                            person per day.</div>
-                    </div>
+
 
 <!-- map -->
      <!-- Label for the dropdown menu -->
@@ -380,15 +343,6 @@
  <!-- Link to the external JavaScript file for custom map logic -->
 <!-- end map section-->
 
-                    <div class="mb-3">
-                        <label for="budget" class="form-label">Budget</label>
-                        <input type="number" class="form-control" id="budget" aria-describedby="budgetHelp">
-                        <div id="budgetHelp" class="form-text">Enter the
-                            total budget you have.</div>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <button type="submit" class="btn btn-primary">Calculate</button>
-                    </div>
                 </form>
                 <div class="d-flex justify-content-center">
                     <button class="btn btn-primary" onclick="calculateBudget()">Calculate</button>
