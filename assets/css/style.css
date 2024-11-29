@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lato:wght@300&display=swap');
 
 :root {
@@ -10,33 +9,37 @@
     /* ex.. call with -background-color var(--orange) */
 }
 
-h1,h2,h5{
+h1,
+h2,
+h5{
     font-family: "Caveat Brush", serif;
     font-weight: 500;
 }
 
-#destinations h2{
+#destinations h2 {
     font-family: "Caveat Brush", serif;
 }
 
-#hero h1{
-    color:antiquewhite;
+#hero h1 {
+    color: antiquewhite;
     font-size: 50px;
 }
-#hero p, #hero label{
+
+#hero p,
+#hero label {
     color: wheat;
 }
 
-#hero label{
+#hero label {
     font-weight: bold;
 }
 
-#navigation_bar .active{
+#navigation_bar .active {
     color: var(--orange);
     font-weight: 500;
 }
 
-#navigation_bar .nav-link:hover{
+#navigation_bar .nav-link:hover {
     text-decoration: underline;
 }
 
@@ -45,15 +48,16 @@ h1,h2,h5{
 
 /* WebKit Slider Thumb */
 input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none; /* Override default appearance */
+    -webkit-appearance: none;
+    /* Override default appearance */
     width: 20px;
     height: 20px;
     background: var(--green);
     border-radius: 50%;
     cursor: pointer;
     border: none;
-  }
-  
+}
+
 /* Firefox Slider Thumb */
 input[type="range"]::-moz-range-thumb {
     width: 20px;
@@ -72,7 +76,7 @@ input[type="range"]::-ms-thumb {
     cursor: pointer;
 }
 
-#website_icon{
+#website_icon {
     font-family: "Caveat Brush", serif;
     font-size: 30px
 }
@@ -169,20 +173,43 @@ body {
 }
 
 .destinationModal {
-    display:none;
-    position:fixed;
-    top:50%;
-    left:50%;
-    transform:translate(-50%, -50%);
-    background-color:white;
-    padding:20px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
     background-color: yellow;
-    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
-    z-index:1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
     border-radius: 30px;
     text-align: center;
 }
 
+button {
+    background-color: var(--green);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1.2rem;
+}
+
+button:hover {
+    background-color: var(--orange);
+    color: var(--green);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1.2rem;
+}
 
 /* crops budget calculator image height on mobile */
 @media (max-width: 767px) {
