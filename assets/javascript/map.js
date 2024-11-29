@@ -21,15 +21,15 @@ document.addEventListener('DOMContentLoaded', function () {
         // Add a new marker at the specified latitude and longitude
         marker = L.marker([lat, lng]).addTo(map);
         // Center the map on the new marker with a zoom level of 4
-        map.setView([lat, lng],4 );
+        map.setView([lat, lng], 4);
     }
 
     // Event listener for the dropdown menu
-    document.getElementById('holiday-locations').addEventListener('change', function() {
+    document.getElementById('holiday-locations').addEventListener('change', function () {
         // Get the selected location from the dropdown menu
         var location = this.value;
         // Switch statement to update the map based on the selected location
-        switch(location) {
+        switch (location) {
             case 'london':
                 updateMap(51.509865, -0.118092); // London coordinates
                 break;
