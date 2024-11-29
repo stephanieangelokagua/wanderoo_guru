@@ -12,6 +12,14 @@ h1 {
     font-weight: 500;
 }
 
+#destinations h2{
+    font-family: "Caveat Brush", serif;
+}
+
+#hero p{
+    color: wheat;
+}
+
 input[type="range"] {
     /* Customize the slider track */
     -webkit-appearance: none;
