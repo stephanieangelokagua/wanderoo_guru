@@ -40,11 +40,6 @@ h1,h2{
     text-decoration: underline;
 }
 
-#navigation_bar #icon{
-    font-family: "Caveat Brush", serif;
-    font-size: 30px;
-}
-
 
 /* Need different thumbs for different browsers thus 3 styles are needed for cross broswer compatability */
 
@@ -171,6 +166,21 @@ body {
     border-radius: 0px;
     box-shadow: 0 10px 10px 10px rgba(black, 0.2);
     overflow: hidden;
+}
+
+.destinationModal {
+    display:none;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    background-color:white;
+    padding:20px;
+    background-color: yellow;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    z-index:1000;
+    border-radius: 30px;
+    text-align: center;
 }
 
 

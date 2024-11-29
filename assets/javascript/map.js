@@ -85,20 +85,16 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Close modal when the "More Info" button is clicked
-    document.querySelectorAll('.card button[onclick="more-info"]').forEach(function(button) {
-        button.addEventListener('click', function() {
-            var modal = document.getElementById('destinationModal');
-            modal.style.display = 'none';
-        });
+    // Close modal when the close button is clicked
+    document.getElementById('close-modal').addEventListener('click', function () {
+        var modal = document.getElementById('destinationModal');
+        modal.style.display = 'none';
     });
-});
 
-document.getElementById('close-modal').addEventListener('click', function () {
-    var modal = document.getElementById('destinationModal');
-    modal.style.display = 'none';
-});
-
-document.getElementById('book-now').addEventListener('click', function () {
-    alert('Booking confirmed!');
+    // Close modal when the "Book Now" button is clicked
+    document.getElementById('book-now').addEventListener('click', function () {
+        alert('Booking confirmed!');
+        var modal = document.getElementById('destinationModal');
+        modal.style.display = 'none';
+    });
 });
