@@ -40,6 +40,11 @@ h1,h2{
     text-decoration: underline;
 }
 
+#navigation_bar #icon{
+    font-family: "Caveat Brush", serif;
+    font-size: 30px;
+}
+
 
 /* Need different thumbs for different browsers thus 3 styles are needed for cross broswer compatability */
 
