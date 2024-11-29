@@ -23,38 +23,58 @@ h1,h2{
     color:antiquewhite;
     font-size: 50px;
 }
-#hero p{
+#hero p, #hero label{
     color: wheat;
 }
 
-input[type="range"] {
-    /* Customize the slider track */
-    -webkit-appearance: none;
-    appearance: none;
-    height: 6px;
-    background: #ddd;
-    /* Background color for the track */
-    border-radius: 5px;
-    outline: none;
+#hero label{
+    font-weight: bold;
+}
+
+#navigation_bar .active{
+    color: var(--orange);
+    font-weight: 500;
+}
+
+#navigation_bar .nav-link:hover{
+    text-decoration: underline;
 }
 
 
+/* Need different thumbs for different browsers thus 3 styles are needed for cross broswer compatability */
+
+/* WebKit Slider Thumb */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default appearance */
+    width: 20px;
+    height: 20px;
+    background: var(--green);
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+  }
+  
+/* Firefox Slider Thumb */
 input[type="range"]::-moz-range-thumb {
     width: 20px;
     height: 20px;
-    background: #FF6F61;
-    /* Desired color for the thumb */
+    background: var(--green);
     border-radius: 50%;
     cursor: pointer;
 }
 
+/* IE Slider Thumb */
 input[type="range"]::-ms-thumb {
     width: 20px;
     height: 20px;
-    background: #FF6F61;
-    /* Desired color for the thumb */
+    background: var(--green);
     border-radius: 50%;
     cursor: pointer;
+}
+
+#website_icon{
+    font-family: "Caveat Brush", serif;
+    font-size: 30px
 }
 
 body {
