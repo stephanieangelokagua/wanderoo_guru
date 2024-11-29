@@ -97,7 +97,7 @@ function possibleDestinations() {
     const userBudget = parseInt(budgetSlider.value) // get budget entered by user
     const heading_div = document.createElement("div")
     const heading_for_card_section = document.createElement("h2")
-    heading_for_card_section.className = "text-center"
+    heading_for_card_section.className = "mt-5"
     heading_for_card_section.textContent = "Top Destinations for your budget!"
     heading_div.appendChild(heading_for_card_section)
     cardContainer.appendChild(heading_div)

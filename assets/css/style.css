@@ -18,8 +18,12 @@ h5{
 
 #destinations h2 {
     font-family: "Caveat Brush", serif;
+    text-align: center;
 }
 
+#cardContainer h2{
+    margin: 40px ;
+}
 #hero h1 {
     color: antiquewhite;
     font-size: 50px;
