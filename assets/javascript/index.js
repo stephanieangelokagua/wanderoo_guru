@@ -40,3 +40,6 @@ const destinations = [{
     image: "assets/images/USA-NewYork-640x427.webp"
 }
 ];
+
+
+
