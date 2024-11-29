@@ -75,7 +75,6 @@ function calculateBudget() {
         let budget = (costTransport*numPeople)+((duration*numPeople))*((foodCostPd+transportCostPd+attractionCostPd));
 
         document.getElementById("budgetResult").innerHTML =`Your Budget: £${budget}`;
-        console.log(budget);
     }
 
 }
