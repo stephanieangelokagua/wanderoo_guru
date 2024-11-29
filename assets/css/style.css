@@ -3,6 +3,7 @@
 :root {
     --orange: #ffa673;
     --green: #4a7a7b;
+    --greenOp: #772afda9;
     --white: #fbfeff;
     --timber: #e7e1db60;
     --black: #0d0f11;
@@ -32,6 +33,16 @@ h2 {
 #hero label {
     font-weight: bold;
 }
+
+#nav-color {
+    background: linear-gradient(180deg, var(--black), var(--green));
+    padding-bottom: 0;
+
+}
+#navigation_bar a {
+    color: var(--orange);
+}
+
 
 #navigation_bar .active {
     color: var(--orange);
