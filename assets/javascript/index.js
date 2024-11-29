@@ -53,3 +53,11 @@ function updateRangeFromInput(rangeId, inputId) {
     var input = document.getElementById(inputId);
     range.value = input.value;
 }
+
+// dynamically update budgetslider label based on user input
+const budgetSlider = document.getElementById("customRange2") // get the range
+const budgetLabel = document.getElementById("budgetValue") // get label
+budgetLabel.textContent = `£${budgetSlider.value}` // set default label value
+budgetSlider.addEventListener('input', () =>{
+    budgetLabel.textContent = `£${budgetSlider.value}` // update based on user input
+});
