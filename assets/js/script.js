@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     var map = L.map('map', {
         center: [51.509865, -0.118092], // Default to London
-        zoom: 2, // Initial zoom level
+        zoom: 1,
         zoomControl: false, // Disable zoom control
         attributionControl: true // Enable attribution control
     });
@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         // Add a new marker at the specified latitude and longitude
         marker = L.marker([lat, lng]).addTo(map);
-        // Center the map on the new marker with a zoom level of 10
-        map.setView([lat, lng], 10);
+        // Center the map on the new marker with a zoom level of 4
+        map.setView([lat, lng],4 );
     }
 
     // Event listener for the dropdown menu

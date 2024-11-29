@@ -4,9 +4,10 @@
     --white: #fbfeff;
     --timber: #e7e1db60;
     --black: #0d0f11;
-    /* ex.. call with -background-color var(--orange) */  
+    /* ex.. call with -background-color var(--orange) */
 }
-h1{
+
+h1 {
     font-family: 'Kanit', sans-serif;
     font-weight: 500;
 }
@@ -16,36 +17,41 @@ input[type="range"] {
     -webkit-appearance: none;
     appearance: none;
     height: 6px;
-    background: #ddd; /* Background color for the track */
+    background: #ddd;
+    /* Background color for the track */
     border-radius: 5px;
     outline: none;
-  }
+}
 
-  
-  input[type="range"]::-moz-range-thumb {
+
+input[type="range"]::-moz-range-thumb {
     width: 20px;
     height: 20px;
-    background: #FF6F61; /* Desired color for the thumb */
+    background: #FF6F61;
+    /* Desired color for the thumb */
     border-radius: 50%;
     cursor: pointer;
-  }
-  
-  input[type="range"]::-ms-thumb {
+}
+
+input[type="range"]::-ms-thumb {
     width: 20px;
     height: 20px;
-    background: #FF6F61; /* Desired color for the thumb */
+    background: #FF6F61;
+    /* Desired color for the thumb */
     border-radius: 50%;
     cursor: pointer;
-  }
-  
-h2{
+}
+
+h2 {
     font-family: 'Lexend', sans-serif;
 }
+
 body {
     background-color: var(--white);
     color: var(--black);
 }
-#hero{
+
+#hero {
     background-image: url('../images/hero-1280x850.webp');
     background-size: cover;
     background-position: center;
@@ -54,32 +60,35 @@ body {
     margin: 0px;
 }
 
-.form-range{
+.form-range {
     width: 100%;
 }
 
-#page-footer{
+#page-footer {
     background-color: var(--green);
 }
 
-#page-footer #team-logo{
+#page-footer #team-logo {
     height: 110px;
 }
 
-#page-footer a{
+#page-footer a {
     text-decoration: none;
     color: var(--white);
 }
-.social-links{
+
+.social-links {
     font-size: 30px;
-    
+
 }
+
 /* crops budget calculator image when screen width changes */
 .img-crop {
     object-fit: cover;
     width: 100%;
     height: 90%;
 }
+
 /* style for destination cards */
 .card {
     background-color: var(--timber);
@@ -97,9 +106,10 @@ body {
 }
 
 /* when mouse over cars change color */
-.card:hover{
+.card:hover {
     box-shadow: 0 8px 26px rgba(0, 0, 0, 0.719);
 }
+
 .btn-primary {
     background-color: var(--green);
     color: var(--white);
@@ -110,28 +120,28 @@ body {
     font-size: 1.2rem;
     font-weight: 500;
 }
+
 .btn-primary:hover {
     background-color: var(--orange);
     color: var(--green);
 }
 
 
-    
-    /* container for the for and the map */
-    #map {
-        height:300px;
-        width: 700px; 
-        
-        border-radius: 10px;
-        box-shadow: 0 10px 10px 10px rgba(black, 0.2); 
-        overflow: hidden;
-    }
+
+/* container for the for and the map */
+#map {
+    height: 300px;
+    width: 100%;
+    border-radius: 0px;
+    box-shadow: 0 10px 10px 10px rgba(black, 0.2);
+    overflow: hidden;
+}
 
 
 /* crops budget calculator image height on mobile */
 @media (max-width: 767px) {
     .img-crop {
-        height: 200px; 
+        height: 200px;
     }
 }
 
@@ -140,7 +150,7 @@ body {
         width: 70%;
     }
 
-    #hero{
+    #hero {
         padding: 150px 80px;
     }
 }
