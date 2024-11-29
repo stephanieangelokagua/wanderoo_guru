@@ -23,8 +23,12 @@ h1,h2{
     color:antiquewhite;
     font-size: 50px;
 }
-#hero p{
+#hero p, #hero label{
     color: wheat;
+}
+
+#hero label{
+    font-weight: bold;
 }
 
 input[type="range"] {
