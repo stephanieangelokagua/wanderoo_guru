@@ -130,22 +130,6 @@ body {
     height: 50%;;
 }
 
-/* Footer styles */
-#page-footer {
-    background: linear-gradient(180deg, var(--black), var(--green));
-}
-
-#page-footer #team-logo {
-    height: 110px;
-    border: 1px solid var(--black);
-    box-shadow: 1px 1px 15px 2px var(--black);
-}
-
-#page-footer a {
-    text-decoration: none;
-    color: var(--white);
-    text-shadow: 5px 5px 10px var(--black);
-}
 
 .social-links {
     font-size: 30px;
@@ -254,7 +238,14 @@ button:hover {
     padding: 20px;
     color: var(--white);
     text-align: center;
+    text-shadow: 5px 5px 10px var(--black);
 }
+
+#footer-style img{
+    box-shadow: 1px 1px 10px var(--black);
+}
+
+#footer-style h5{}
 
 .crew {
     font-size: 12px;
