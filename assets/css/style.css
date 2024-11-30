@@ -248,6 +248,18 @@ button:hover {
     font-weight: 500;
     margin-top: 1.2rem;
 }
+/* Footer styles */
+#footer-style {
+    background: linear-gradient(180deg, var(--black), var(--green));
+    padding: 20px;
+    color: var(--white);
+    text-align: center;
+}
+
+.crew {
+    font-size: 12px;
+    font-style: italic;
+}
 
 /* crops budget calculator image height on mobile */
 @media (max-width: 767px) {
