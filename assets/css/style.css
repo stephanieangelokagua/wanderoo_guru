@@ -6,9 +6,11 @@
     --white: #fbfeff;
     --timber: #e7e1db60;
     --black: #0d0f11;
+
+
+    
     /* ex.. call with -background-color var(--orange) */
 }
-
 
 h1,
 h2,
@@ -16,6 +18,27 @@ h5{
     font-family: "Caveat Brush", serif;
     font-weight: 500;
 }
+
+.navbar-toggler {
+    background-color: var(--white);
+    border-radius: 75px 15px 75px 75px ;
+    background-color: var(--orange);
+    box-shadow: 1px 1px 20px var(--black);
+    width: 80px;
+    height:40px;
+}
+
+.navbar-toggler:hover {
+    background-color: var(--white);
+    border-radius: 75px 15px 75px 75px ;
+    background-color: var(--orange);
+    width: 80px;
+    height:40px;
+    background-color: var(--white);
+    box-shadow: 1px 1px 20px var(--white);
+}
+
+
 
 #destinations h2 {
     font-family: "Caveat Brush", serif;
@@ -28,11 +51,15 @@ h5{
 #hero h1 {
     color: antiquewhite;
     font-size: 50px;
+    text-shadow: 5px 5px 15px var(--black);
 }
 
 #hero p,
 #hero label {
     color: wheat;
+    text-shadow: 5px 5px 15px var(--black);
+    font-size: 1.5rem;
+
 }
 
 #hero label {
@@ -60,13 +87,10 @@ h5{
     text-decoration: underline;
 }
 
-#nav-image {
-    width: 100px;
-    height: 100px;
-    border: 1px solid var(--black);
+.navbar-brand {
     box-shadow: 1px 1px 15px 2px var(--black);
     margin-right: 1rem;
-}
+}`
 
 /* Need different thumbs for different browsers thus 3 styles are needed for cross broswer compatability */
 
