@@ -127,10 +127,7 @@ function possibleDestinations() {
 
         column_card.appendChild(card)
         cardContainer.appendChild(column_card)
-
     });
-
-
 }
 
 // Function to display modal with destination budgets
@@ -138,7 +135,6 @@ function displayBudgetModal() {
     const modal = document.getElementById("budgetModal");
     const modalBody = document.getElementById("budgetModalBody");
     modalBody.innerHTML = ""; // Clear previous content
-
     destinations.forEach(destination => {
         const budgetInfo = document.createElement("p");
         budgetInfo.textContent = `${destination.name}: £${destination.budget}`;
@@ -239,28 +235,18 @@ document.getElementById("showBudgetButton").addEventListener("click", displayBud
         
         // Function to show the modal with image and text from the clicked card
         function showModal(imageSrc, title, text) {
-           
             var modal = document.getElementById('destinationModal');
             modal.querySelector('img').src = imageSrc;
-            modal.querySelector('h2').innerText = title;
+            modal.querySelector('h2').innerText = title;            
             modal.querySelector('p').innerText = text;
             modal.style.display = 'block';
-            displayCost();
+            /* Add budget information to the modal and style*/
+            var displayLocationBudget = document.createElement('p');
+            displayLocationBudget.innerText = 'Perfect location for a budget of £' + destinations.find(destination => destination.name === title).budget;
+            displayLocationBudget.style.backgroundColor = 'var(--orange)';
+            displayLocationBudget.style.fontSize = '1.2em';
+            modal.insertBefore(displayLocationBudget, modal.firstChild);
         }
-    
-    function displayCost() {
-        var costElement = document.createElement('p');
-        costElement.innerText = "Budget: £1000"; // Example cost
-        const selectedLocation = document.getElementById('holiday-locations').value;
-        const selectedDestination = destinations.find(destination => destination.name.toLowerCase().replace(/\s+/g, '') === selectedLocation.toLowerCase().replace(/\s+/g, ''));
-        if (selectedDestination) {
-            costElement.innerText = `Budget: £${selectedDestination.budget}`;
-        }
-        costElement.style.fontWeight = 'bold';
-        costElement.style.backgroundColor = 'var(--orange)';
-        costElement.style.color = 'var(--green)';
-        document.getElementById('destinationModal').appendChild(costElement); // Clear previous content
-    }
     
         // Add event listeners to buttons to show the modal
         document.querySelectorAll('.card .btn').forEach(function (button) {
@@ -283,7 +269,7 @@ document.getElementById("showBudgetButton").addEventListener("click", displayBud
         document.getElementById('close-modal').addEventListener('click', function () {
             var modal = document.getElementById('destinationModal');
             modal.style.display = 'none';
-            document.getElementById('destinationModal').removeChild(document.getElementById('destinationModal').lastChild);
+    document.getElementById('destinationModal').removeChild(document.getElementById('destinationModal').firstChild);
         });
     
         // Close modal when the "Book Now" button is clicked
@@ -291,6 +277,6 @@ document.getElementById("showBudgetButton").addEventListener("click", displayBud
             alert('Booking confirmed!');
             var modal = document.getElementById('destinationModal');
             modal.style.display = 'none';
-            document.getElementById('destinationModal').removeChild(document.getElementById('destinationModal').lastChild);
+            document.getElementById('destinationModal').removeChild(document.getElementById('destinationModal').firstChild);
         });
     });
