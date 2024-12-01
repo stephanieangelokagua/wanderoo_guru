@@ -90,7 +90,7 @@ h5{
 .navbar-brand {
     box-shadow: 1px 1px 15px 2px var(--black);
     margin-right: 1rem;
-}`
+}
 
 /* Need different thumbs for different browsers thus 3 styles are needed for cross broswer compatability */
 
