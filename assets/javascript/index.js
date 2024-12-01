@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function () {
         cardContainer.appendChild(heading_div)
         filterDestinationsByBudget = destinations.filter((destination) => destination.budget <= userBudget) //filter destinations by budget
         if (filterDestinationsByBudget.length === 0) {
-            cardContainer.innerHTML = '<p>No destinations available for your budget!</p>'
+            cardContainer.innerHTML = '<p style="color: red; text-align: center; font-size: 1.5em;">No destinations available for your budget!</p>'
             return;
         }
         filterDestinationsByBudget.forEach((destination) => {
