@@ -1,4 +1,12 @@
+
 document.addEventListener('DOMContentLoaded', function () {
+
+/*
+* Leaflet map functionality to display a map with a marker at the selected location
+* when the user selects a location from the dropdown menu
+* and disable map interactions when the user is not interacting with the map
+*/
+
     var map = L.map('map', {
         center: [51.509865, -0.118092], // Default to London
         zoom: 1,
@@ -29,6 +37,12 @@ document.addEventListener('DOMContentLoaded', function () {
         // Center the map on the new marker with a zoom level of 4
         map.setView([lat, lng], 4);
     }
+
+/*
+* Dropdown menu functionality to update the map based on the selected location
+* and display the corresponding destination information
+* when the user selects a location from the dropdown menu
+*/
 
     // Event listener for the dropdown menu
     document.getElementById('holiday-locations').addEventListener('change', function () {
@@ -63,14 +77,32 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
+/*
+* Modal functionality for displaying destination information when user
+* clicks on "Learn More" button on a card
+*/
+    
     // Function to show the modal with image and text from the clicked card
     function showModal(imageSrc, title, text) {
+       
         var modal = document.getElementById('destinationModal');
         modal.querySelector('img').src = imageSrc;
         modal.querySelector('h2').innerText = title;
         modal.querySelector('p').innerText = text;
         modal.style.display = 'block';
+        displayCost();
     }
+
+function displayCost() {
+    var costElement = document.createElement('p');
+    costElement.innerText = "Budget: £1000"; // Example cost
+    costElement.style.fontWeight = 'bold';
+    costElement.style.backgroundColor = 'var(--orange)';
+    costElement.style.color = 'var(--green)';
+    document.getElementById('destinationModal').appendChild(costElement); // Clear previous content
+
+
+}
 
     // Add event listeners to buttons to show the modal
     document.querySelectorAll('.card .btn').forEach(function (button) {
@@ -82,6 +114,12 @@ document.addEventListener('DOMContentLoaded', function () {
             showModal(imageSrc, title, text);
         });
     });
+
+/*
+* Modal functionality for closing the modal when the close button is clicked
+* or when the "Book Now" button is clicked
+* and displaying an alert to confirm the booking
+*/
 
     // Close modal when the close button is clicked
     document.getElementById('close-modal').addEventListener('click', function () {
