@@ -241,13 +241,29 @@ No issues were found when using all of the listed browsers, all performed with t
 
 Iphone XR Screenshots
 
-![HerosectionXR](assets/images/p1.png)
+<details>
+    <summary>Hero section on iphone XR</summary>
+    <img src="assets/images/p1.png">
+    
+</details>
 
-![PopularDestinationsXR](assets/images/p2.png)
+<details>
+    <summary>Destinations section on iphone XR</summary>
+    <img src="assets/images/p2.png">
+    
+</details>
 
-![CalculatorXR](assets/images/p3.png)
+<details>
+    <summary>Budget Calculator section on iphone XR</summary>
+    <img src="assets/images/p3.png">
+    
+</details>
 
-![FooterXR](assets/images/p4.png)
+<details>
+    <summary>Footer on iphone XR</summary>
+    <img src="assets/images/p4.png">
+    
+</details>
 
 ### Validator Testing
 
