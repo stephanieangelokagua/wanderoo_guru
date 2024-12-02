@@ -42,7 +42,7 @@ The color scheme is inspired by the vibrant and captivating hero image that gree
 
 ### Cavet Bush 
 
-- Reasoning: Filtered google fonts for playful and handwritten fonts to match the target vibe for the website for headings
+- Filtered google fonts for playful and handwritten fonts to match the target vibe for the website for headings
 
 ### Gloria Hallelujah
 - A playful and handwritten font that complements the adventurous and budget-friendly vibe of the platform.
