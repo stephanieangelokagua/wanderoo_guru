@@ -148,9 +148,11 @@ Copilot was employed to generate strategic planning ideas for the team. These AI
 
 **Development Support**
 
--
+- Used AI to learn how to style the thumb in range elements which allowed me learn more about how browser compatability affects the styling of elements on different web browsers
 
--
+- Used AI to generate the header of the hero section "Explore the world without breaking your bank!"
+
+- Used AI as a reminder for javacsript syntax to generate the dummy costs of the travelling to the various destinations
 
 ## Testing
 
