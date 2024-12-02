@@ -148,6 +148,19 @@ After exploring potential errors in the code such as unclosed blocks and wrongly
 ## Deployment
 
 <a id="credits"></a>
+
+During this project, Git was an essential tracking tool used to monitor the progress of the website towards final deployments. Git commits were used to allow version tracking and restoring previous states if needed amongst Git push, Git pull, Git add. These commits were stored and Github was used to store the project and deploy the site.
+
+GitHub was used to deploy the website. These were the steps taken to acheive this:  
+
+1. Login to GitHub account
+2. Navigate to the project repository, mental_health_deserves_awareness
+3. Click the Settings button near the top of the page
+4. In the left-hand menu, find and click on the Pages button
+5. In the Source section, choose 'main' from the drop-down, select branch menu
+6. Select 'root' from the drop-down folder menu
+7. Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
+   
 ## Credits
 
 
