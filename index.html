@@ -223,24 +223,27 @@
                     <div class="container mt-5">
                         <div class="row">
                             <div class="col-md-4 d-flex flex-column align-items-center text-center mb-2">
-                                <label for="range1 range1Value" class="form-label">Food
+                                <label for="range1" class="form-label">Food
                                     <i class="fa-solid fa-utensils"></i></label>
+                                <label for="range1Value" aria-label="Food budget"></label>
                                 <input type="number" id="range1Value" class="form-control mb-2 text-center" value="100"
                                     min="0" max="200" oninput="updateRangeFromInput('range1', 'range1Value')">
                                 <input type="range" class="form-range" id="range1" min="0" max="200" value="100"
                                     oninput="updateInputFromRange('range1', 'range1Value')">
                             </div>
                             <div class="col-md-4 d-flex flex-column align-items-center text-center mb-2">
-                                <label for="range2 range2Value" class="form-label">Transport <i
+                                <label for="range2" class="form-label">Transport <i
                                         class="fa-solid fa-taxi"></i></label>
+                                <label for="range2Value" aria-label="Transport budget"></label>
                                 <input type="number" id="range2Value" class="form-control mb-2 text-center" value="50"
                                     min="0" max="100" oninput="updateRangeFromInput('range2', 'range2Value')">
                                 <input type="range" class="form-range" id="range2" min="0" max="100" value="50"
                                     oninput="updateInputFromRange('range2', 'range2Value')">
                             </div>
                             <div class="col-md-4 d-flex flex-column align-items-center text-center mb-2">
-                                <label for="range3 range3Value" class="form-label">Attractions <i
+                                <label for="range3" class="form-label">Attractions <i
                                         class="fa-solid fa-mountain-city"></i></label>
+                                <label for="range3Value" aria-label="Attractions budget"></label>
                                 <input type="number" id="range3Value" class="form-control mb-2 text-center" value="100"
                                     min="0" max="200" oninput="updateRangeFromInput('range3', 'range3Value')">
                                 <input type="range" class="form-range" id="range3" min="0" max="200" value="100"
@@ -448,7 +451,7 @@
         <h2>More Information</h2>
         <p>This is some more information about the selected
             location.</p>
-        <img src style="width:100%; height:auto;" alt="Destination Image">
+        <img src style="width:100%; height:auto;" alt="Destination Image 2: Paris">
         <button id="book-now">Book Now</button>
         <button id="close-modal">Close</button>
     </div>
