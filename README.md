@@ -44,10 +44,6 @@ The color scheme is inspired by the vibrant and captivating hero image that gree
 
 - Reasoning: Filtered google fonts for playful and handwritten fonts to match the target vibe for the website for headings
 
-
-### Kanit font
-- A visually striking font that captures attention and enhances the overall aesthetic of the design.
-
 ### Gloria Hallelujah
 - A playful and handwritten font that complements the adventurous and budget-friendly vibe of the platform.
 
@@ -248,6 +244,11 @@ We worked to resolve many of these issues but were unable to remove some, but we
 ![WAVE 2 issues](assets/images/readme-images/final-WAVE-validation-issues.png)
 
 ### Lighthouse
+
+<p align="center">
+    <img src="assets/images/readme-images/lighthouse.png" alt="Lighthouse">
+</p>
+
 
 ### Responsive Testing
 
