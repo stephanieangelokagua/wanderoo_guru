@@ -101,6 +101,8 @@ The hero image was chosen to reflect the overall theme of the website. To allow 
 
 The main call to action button for this website is the find my destination button which allows users see what destinations are within their budget 
 
+![CTAB](assets/images/ctacb.png)
+
 - **Budget Slider**
 
 ![Slider](assets/images/slider.png)
