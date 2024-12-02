@@ -130,6 +130,7 @@ Used a third-paty tool Leaflet to display a map that shows the different locatio
 - **About**
 
 The About section provides an overview of our mission, values, and the inspiration behind creating Wandaroo Guru, emphasizing our commitment to making travel accessible and affordable for everyone.
+
 ![About](assets/images/readme-images/about.png)
 
 
@@ -238,7 +239,7 @@ On our initial test we found multiple issues with image alt text's, form labelli
 
 ![WAVE 1](assets/images/readme-images/initial-WAVE-validation.png)
 
-We worked to resolve many of these issues but were unable to remove some, but we were left with a much more accesibile site as show by the final test results
+We worked to resolve many of these issues but were unable to remove some, but we were left with a much more accesibile site as shown by the final test results
 
 ![WAVE 2](assets/images/readme-images/final-WAVE-validation.png)
 ![WAVE 2 issues](assets/images/readme-images/final-WAVE-validation-issues.png)
