@@ -46,8 +46,21 @@
                     <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#aboutUsModal">About</a>
                     <a class="nav-link" href="#destinations">Destinations</a>
                     <a class="nav-link" href="#budget-calculator">Budget
-                        Calculator</a>
-                    <a class="nav-link" href="#subscribe-section">Subscribe</a>
+                        Calculator</a>                 
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#subscribeModal">Subscribe</a>
+                <script>
+                    document.getElementById('subscribeForm').addEventListener('submit', function(event) {
+                        event.preventDefault();
+                        const name = document.getElementById('subscribeName').value;
+                        const email = document.getElementById('subscribeEmail').value;
+                        if (name && email) {
+                            alert('Subscription successful!');
+                            // Add your subscription logic here
+                        } else {
+                            alert('Please fill in all fields.');
+                        }
+                    });
+                </script>
                 </div>
             </div>
         </div>
@@ -327,16 +340,56 @@
             </div>
         </div>
     </div>
-    
-    <!-- location more info modal -->
-    <div id="destinationModal" class="destinationModal">
-        <h2>More Information</h2>
-        <p>This is some more information about the selected location.</p>
-        <img src style="width:100%; height:auto;" alt="Destination Image">
-        <button id="book-now">Book Now</button>
-        <button id="close-modal">Close</button>
-      
+<!-- Subscribe Modal -->
+                <div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="subscribeModalLabel">Subscribe</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form id="subscribeForm">
+                                    <div class="mb-3">
+                                        <label for="subscribeName" class="form-label">Your Name</label>
+                                        <input type="text" class="form-control" id="subscribeName" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="subscribeEmail" class="form-label">Email Address</label>
+                                        <input type="email" class="form-control" id="subscribeEmail" placeholder="name@example.com" required>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+</div>
+<!-- subscription form -->
+<div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                    <h5 class="modal-title" id="subscribeModalLabel">Subscribe</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            <div class="modal-body">
+                <form id="subscribeForm">
+                    <div class="mb-3">
+                        <label for="subscribeName" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="subscribeName" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subscribeEmail" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="subscribeEmail" placeholder="name@example.com" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
     </div>
+</div>
     <!--Fontawesome toolkit-->
     <!-- About Us Modal -->
     <div class="modal fade" id="aboutUsModal" tabindex="-1" aria-labelledby="aboutUsModalLabel" aria-hidden="true">
@@ -382,7 +435,7 @@
             <li><a class="nav-link active" data-bs-toggle="modal" data-bs-target="#aboutUsModal">About</a></li>
             <li><a href="#destinations" class="text-white">Destinations</a></li>
             <li><a href="#budget-calculator" class="text-white">Budget Calculator</a></li>
-            <li><a href="#subscribe-section" class="text-white">Subscribe</a></li>
+            <li><a class="nav-link" data-bs-toggle="modal" data-bs-target="#subscribeModal">Subscribe</a><li>
             </ul>
         </div>
         <div class="col-12 col-md-4 col-lg-4">
@@ -407,6 +460,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Subscribe</h1>
+                    
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -446,8 +500,7 @@
         </div>
     </div>
     <!-- location more info modal -->
-    <div id="destinationModal" class="destinationModal"
-        style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); background-color:white; padding:20px; box-shadow:0 0 10px rgba(0, 0, 0, 0.5); z-index:1000;">
+    <div id="destinationModal" class="destinationModal">
         <h2>More Information</h2>
         <p>This is some more information about the selected
             location.</p>
