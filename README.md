@@ -61,25 +61,25 @@ Easy read fonts that have been developed to  reduce reading fatigue and make rea
 <a id="user-stories"></a>
 ## User Stories
 
-User Story 1
+#### User Story 1
 
-As a user, I want to be able to choose my desired budget and see destinations within that range so I can pick my desired destination based on what i can afford
+<em>As a user, I want to be able to choose my desired budget and see destinations within that range so I can pick my desired destination based on what i can afford</em>
 
-User Story 2
+#### User Story 2
 
-As a user, I want to be able to enter the length of my desired stay and my budget for feeding, accommodation and activities so I can calculate the total cost of my desired trip
+<em>As a user, I want to be able to enter the length of my desired stay and my budget for feeding, accommodation and activities so I can calculate the total cost of my desired trip</em>
 
-User Story 3
+#### User Story 3
 
-As a user, I want to see top destinations when I initially visit the site so I can choose my desired destination when I have no budget constraints
+<em>As a user, I want to see top destinations when I initially visit the site so I can choose my desired destination when I have no budget constraints</em>
 
-User Story 4
+#### User Story 4
 
-As a user, I want a website that is responsive so I can use it on all my devices
+<em>As a user, I want a website that is responsive so I can use it on all my devices</em>
 
-User Story 5
+#### User Story 5
 
-As a user, I want to be able to see visual representations of the various destinations so I can make my choice based on it's aesthetic 
+<em>As a user, I want to be able to see visual representations of the various destinations so I can make my choice based on it's aesthetic </em>
 
 
 <a id="features"></a>
