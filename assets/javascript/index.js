@@ -86,7 +86,7 @@ window.calculateBudget = function () {
 
     const destinationButton = document.getElementById("findButton");
     destinationButton.addEventListener('click', () => {
-        possibleDestinations()
+        possibleDestinations();
     });
 
     const cardContainer = document.getElementById("cardContainer");
@@ -104,7 +104,7 @@ window.calculateBudget = function () {
         if (filterDestinationsByBudget.length === 0) {
             cardContainer.innerHTML = '<p style="color: red; text-align: center; font-size: 1.5em;">No destinations available for your budget!</p>';
             return;
-        };
+        }
         filterDestinationsByBudget.forEach((destination) => {
             heading_for_card_section.className = "col-12";
             const column_card = document.createElement("div");
