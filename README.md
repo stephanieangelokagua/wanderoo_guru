@@ -40,17 +40,19 @@ The color scheme is inspired by the vibrant and captivating hero image that gree
 
 ## Fonts
 
-![Fonts](assets/images/readme-images/fonts.png)
+### Cavet Bush 
+
+- Reasoning: Filtered google fonts for playful and handwritten fonts to match the target vibe for the website for headings
+
 
 ### Kanit font
-A visually striking font that captures attention and enhances the overall aesthetic of the design.
+- A visually striking font that captures attention and enhances the overall aesthetic of the design.
 
 ### Gloria Hallelujah
-A playful and handwritten font that complements the adventurous and budget-friendly vibe of the platform.
+- A playful and handwritten font that complements the adventurous and budget-friendly vibe of the platform.
 
 ### Lexend font
-
-Easy read fonts that have been developed to  reduce reading fatigue and make reading more accessible for those with reading difficulties.
+- Easy read fonts that have been developed to  reduce reading fatigue and make reading more accessible for those with reading difficulties.
 
 <a id="user-stories"></a>
 ## User Stories
@@ -216,12 +218,22 @@ Copilot was employed to generate strategic planning ideas for the team. These AI
 ### Browser Compatibility
 
 The site was tested on the folowing browsers
- - Chrome
- - ![chrome](assets/images/readme-images/chrome-browser-test.png)
- - Edge
- - ![edge](assets/images/readme-images/edge-browser-test.png)
 
-No issues were found when using all of the listed browsers, all performed with teh  intenend appearrance and responsiveness.
+ - Chrome
+
+![chrome](assets/images/readme-images/chrome-browser-test.png)
+ 
+ - Edge
+
+![edge](assets/images/readme-images/edge-browser-test.png)
+
+| **Browser Compatibility** | Chrome | Edge  |
+|----------------------------|--------|-------|
+| **Intended appearance?**   | Good   | Good  |
+| **Intended responsiveness?**| Good   | Good  |
+                                  
+
+No issues were found when using all of the listed browsers, all performed with the  intenend appearance and responsiveness.
 
 ### Accessibility Testing
 
@@ -233,6 +245,84 @@ No issues were found when using all of the listed browsers, all performed with t
 
 
 ### Responsive Testing
+
+#### Iphone XR Screenshots
+
+<details>
+    <summary>Hero section on iphone XR</summary>
+    <img src="assets/images/p1.png">
+    
+</details>
+
+<details>
+    <summary>Destinations section on iphone XR</summary>
+    <img src="assets/images/p2.png">
+    
+</details>
+
+<details>
+    <summary>Budget Calculator section on iphone XR</summary>
+    <img src="assets/images/p3.png">
+    
+</details>
+
+<details>
+    <summary>Footer on iphone XR</summary>
+    <img src="assets/images/p4.png">
+    
+</details>
+
+#### Ipad Pro Screenshots
+
+<details>
+    <summary>Hero section on Ipad Pro</summary>
+    <img src="assets/images/p11.png">
+    
+</details>
+
+<details>
+    <summary>Destinations section on Ipad Pro</summary>
+    <img src="assets/images/p22.png">
+    
+</details>
+
+<details>
+    <summary>Budget Calculator section on Ipad Pro</summary>
+    <img src="assets/images/p33.png">
+    
+</details>
+
+<details>
+    <summary>Footer on Ipad Pro</summary>
+    <img src="assets/images/p44.png">
+    
+</details>
+
+#### Nest Hub Screenshots
+
+<details>
+    <summary>Hero section on Nest Hub</summary>
+    <img src="assets/images/d1.png">
+    
+</details>
+
+<details>
+    <summary>Destinations section on Nest Hub</summary>
+    <img src="assets/images/d2.png">
+    
+</details>
+
+<details>
+    <summary>Budget Calculator section on Nest Hub</summary>
+    <img src="assets/images/d3.png">
+    
+</details>
+
+<details>
+    <summary>Footer on Nest Hub</summary>
+    <img src="assets/images/d4.png">
+    
+</details>
 
 ### Validator Testing
 
