@@ -337,7 +337,10 @@ After exploring potential errors in the code such as unclosed blocks and wrongly
 
 - HTML
 
+![HTML Validation](assets/images/readme-images/html-validation.png)
+
 - CSS
+
 ![CSS Validation](assets/images/readme-images/css-validation.png)
 
 fixed - var(--black) is not a valid color 3 or 6 hexadecimals numbers - removed the color black
