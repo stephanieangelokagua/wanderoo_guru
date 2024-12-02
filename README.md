@@ -258,7 +258,7 @@ GitHub was used to deploy the website. These were the steps taken to acheive thi
 ### Technologies
 
 - [Leaflet](https://leafletjs.com/reference.html) - Open source street map, data available under the Open Database License.
-- - Git - version control
+- Git - version control
 - Github - deployment and project management
 - HTML 
 - CSS
