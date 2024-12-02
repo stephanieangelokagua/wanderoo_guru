@@ -221,7 +221,7 @@ The site was tested on the folowing browsers
  - Edge
  - ![edge](assets/images/readme-images/edge-browser-test.png)
 
-no issues were found when using all of the listed browsers
+No issues were found when using all of the listed browsers, all performed with teh  intenend appearrance and responsiveness.
 
 ### Accessibility Testing
 
