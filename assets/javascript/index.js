@@ -272,3 +272,16 @@ window.calculateBudget = function () {
         document.getElementById('destinationModal').removeChild(document.getElementById('destinationModal').firstChild);
     });
 });
+
+
+function validateForm() {
+    const name = document.getElementById('exampleFormControlTextarea1').value;
+    const email = document.getElementById('exampleFormControlInput1').value;
+    if (name && email) {
+        const button = document.querySelector('[data-bs-target="#exampleModalToggle2"]');
+        button.setAttribute('data-bs-toggle', 'modal');
+        button.click();
+    } else {
+        alert('Please fill in all fields.');
+    }
+}
