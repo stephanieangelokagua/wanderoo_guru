@@ -153,6 +153,16 @@ Copilot was employed to generate strategic planning ideas for the team. These AI
 
 ### Manual Testing
 
+| Test                    | Device     | Result       |
+| ----------------------- | ---------- | ------------ |
+|Check all pages render   | ALL        | Pass         |
+|Check the slider works   | ALL        | Pass         |
+|Check the call to action button works   | ALL        | Pass         |
+|Check all links work  | ALL        | Pass         |
+|Check all links open in new tabs   | ALL        | Pass         |
+|Check all images render   | ALL        | Pass         |
+|Check to make sure the navbar works   | ALL        | Pass         |
+
 ### Lighthouse
 
 ### Responsive Testing
@@ -207,6 +217,18 @@ GitHub was used to deploy the website. These were the steps taken to acheive thi
 ### Technologies
 
 - [Leaflet](https://leafletjs.com/reference.html) - Open source street map, data available under the Open Database License.
+- - Git - version control
+- Github - deployment and project management
+- HTML 
+- CSS
+- Bootstrap
+- Fontawesome
+- Open AI
+- VS code
+- Beautify formatter extension
+- Pexels
+- Favicon.io
+- Google fonts
 
 ### Media
 
