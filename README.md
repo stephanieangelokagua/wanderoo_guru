@@ -89,8 +89,16 @@ The navigation section of the page was designed to allow the user to navigate th
 
 The hero image was chosen to reflect the overall theme of the website. To allow users achieve their goal of seeing destinations based on a budget they input, a slider was designed that triggers dynamically generated cards based on the inputted price range 
 
+<<<<<<< HEAD
 ![Hero Image](assets/images/hero-1280x850.webp)
 ![HeroImage](assets/images/heroo.png)
+=======
+
+![Hero Image](assets/images/hero-1280x850.webp)
+=======
+![HeroImage](assets/images/heroo.png)
+
+>>>>>>> 66ad19bbc0033dff40bf1956d0608c8d02e9c957
 
 - **Call to Action Button**
 
@@ -123,17 +131,19 @@ Budget calculator is an essential tool that was designed to allow users generate
 
 - **Interactive Map**
 
-The interactive map feature allows users to preview the location of their chosen destination on a world map. By selecting a destination, users can see its geographical position, helping them visualize their travel plans better.
 
-![Interactive Map](assets/images/readme-images/maps.png)
 - **About**
 
 The About section provides an overview of our mission, values, and the inspiration behind creating Wandaroo Guru, emphasizing our commitment to making travel accessible and affordable for everyone.
 ![About](assets/images/readme-images/about.png)
 
-Used a third-paty tool to display a map that shows the different locations highlighted as possible destinations for the users
+Used a third-paty tool Leaflet to display a map that shows the different locations highlighted as possible destinations for the users
+
+![Interactive Map](assets/images/readme-images/maps.png)
 
 ![Map](assets/images/map.png)
+
+>>>>>>> 66ad19bbc0033dff40bf1956d0608c8d02e9c957
 
 - **Footer**
 
