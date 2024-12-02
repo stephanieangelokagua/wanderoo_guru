@@ -295,6 +295,52 @@ GitHub was used to deploy the website. These were the steps taken to acheive thi
 <a id="future-features"></a>
 ## Future Features
 
+- **Travel Blog**
+    - A dedicated section for travel blogs where users can read and share their travel experiences, tips, and stories.
+
+- **Travel Tips**
+    - A comprehensive guide with travel tips, including packing lists, safety advice, and budget-friendly travel hacks.
+
+- **User Testimonies**
+    - A section for user testimonials where travelers can share their feedback and experiences about the destinations they visited.
+
+- **Coordinate Flight**
+    - Integration with flight booking services to help users find and book flights that fit their budget and travel plans.
+
+- **Budget Information on Map Pinpoints**
+    - Adding budget information to the map pinpoints to provide users with a quick overview of the estimated costs associated with each destination.
+
+- **Personalized Recommendations**
+
+    - Implementing a recommendation engine that suggests destinations based on users' past searches and preferences.
+
+- **Local Experiences**
+    - A section dedicated to local experiences and activities, providing users with unique and authentic travel options.
+
+- **Currency Converter**
+    - Adding a currency converter tool to help users understand the costs in their local currency.
+
+- **Weather Forecast**
+    - Integrating a weather forecast feature for each destination to help users plan their trips better.
+
+- **Travel Insurance Options**
+    - Providing information and options for travel insurance to ensure users are covered during their trips.
+
+- **Language Translation**
+    - Incorporating a language translation feature to assist users in navigating foreign destinations.
+
+- **User Profiles**
+    - Allowing users to create profiles to save their favorite destinations, itineraries, and travel preferences.
+
+- **Social Media Integration**
+    - Enabling users to share their travel plans and experiences directly to their social media accounts.
+
+- **Virtual Tours**
+    - Offering virtual tours of destinations to give users a preview of what to expect.
+
+- **Travel Deals and Discounts**
+    - Highlighting special travel deals and discounts to help users save money on their trips.
+
 ## Team Collaboration
 <p align="center">
     <img src="assets/images/shifter-logo150x150.webp" alt="Shifter Logo">
