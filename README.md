@@ -46,14 +46,13 @@ The color scheme is inspired by the vibrant and captivating hero image that gree
 
 
 ### Kanit font
-A visually striking font that captures attention and enhances the overall aesthetic of the design.
+- A visually striking font that captures attention and enhances the overall aesthetic of the design.
 
 ### Gloria Hallelujah
-A playful and handwritten font that complements the adventurous and budget-friendly vibe of the platform.
+- A playful and handwritten font that complements the adventurous and budget-friendly vibe of the platform.
 
 ### Lexend font
-
-Easy read fonts that have been developed to  reduce reading fatigue and make reading more accessible for those with reading difficulties.
+- Easy read fonts that have been developed to  reduce reading fatigue and make reading more accessible for those with reading difficulties.
 
 <a id="user-stories"></a>
 ## User Stories
