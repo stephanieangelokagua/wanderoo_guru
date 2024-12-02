@@ -152,6 +152,16 @@ Copilot was employed to generate strategic planning ideas for the team. These AI
 
 ### Manual Testing
 
+| Test                    | Device     | Result       |
+| ----------------------- | ---------- | ------------ |
+|Check all pages render   | ALL        | Pass         |
+|Check the slider works   | ALL        | Pass         |
+|Check the call to action button works   | ALL        | Pass         |
+|Check all links work  | ALL        | Pass         |
+|Check all links open in new tabs   | ALL        | Pass         |
+|Check all images render   | ALL        | Pass         |
+|Check to make sure the navbar works   | ALL        | Pass         |
+
 ### Lighthouse
 
 ### Responsive Testing
