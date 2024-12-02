@@ -296,6 +296,25 @@ GitHub was used to deploy the website. These were the steps taken to acheive thi
 <a id="future-features"></a>
 ## Future Features
 
+
+### Future Features
+
+- **Travel Blog**
+    - A dedicated section for travel blogs where users can read and share their travel experiences, tips, and stories.
+
+- **Travel Tips**
+    - A comprehensive guide with travel tips, including packing lists, safety advice, and budget-friendly travel hacks.
+
+- **User Testimonies**
+    - A section for user testimonials where travelers can share their feedback and experiences about the destinations they visited.
+
+- **Coordinate Flight**
+    - Integration with flight booking services to help users find and book flights that fit their budget and travel plans.
+
+- **Budget Information on Map Pinpoints**
+    - Adding budget information to the map pinpoints to provide users with a quick overview of the estimated costs associated with each destination.
+
+
 ## Team Collaboration
 <p align="center">
     <img src="assets/images/shifter-logo150x150.webp" alt="Shifter Logo">
