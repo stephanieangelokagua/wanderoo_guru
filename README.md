@@ -32,12 +32,6 @@ Do you want to see the world? Do you have a budget? Do you know you can have bot
 
 ![Wireframe Design](assets/images/readme-images/wireframe.png)
 
-## Hero Image
-A captivating hero image was chosen to immediately grab the user's attention and spark their interest in the platform. This visually appealing image sets the tone for the entire user experience, creating an inviting and engaging atmosphere. The hero image is carefully selected to be appropriate for the target audience, reflecting the adventurous and budget-friendly spirit of the platform. The colors within the image are harmonized with the overall color scheme of the website, ensuring a cohesive and aesthetically pleasing design that enhances readability and user engagement.
-
-
-![Hero Image](assets/images/hero-1280x850.webp)
-
 ## Colours
 The color scheme is inspired by the vibrant and captivating hero image that greets users upon landing on the site. The primary colors were carefully selected to reflect the adventurous and budget-friendly spirit of the platform. These colors were then fine-tuned to create a balanced palette that is both visually appealing and functional, ensuring readability and a pleasant user experience whilst maintaining a professional and trustworthy appearance.
 
@@ -95,6 +89,7 @@ The navigation section of the page was designed to allow the user to navigate th
 
 The hero image was chosen to reflect the overall theme of the website. To allow users achieve their goal of seeing destinations based on a budget they input, a slider was designed that triggers dynamically generated cards based on the inputted price range 
 
+![Hero Image](assets/images/hero-1280x850.webp)
 
 - **Call to Action Button**
 
@@ -124,6 +119,14 @@ Budget calculator is an essential tool that was designed to allow users generate
 
 
 - **Interactive Map**
+
+The interactive map feature allows users to preview the location of their chosen destination on a world map. By selecting a destination, users can see its geographical position, helping them visualize their travel plans better.
+
+![Interactive Map](assets/images/readme-images/maps.png)
+- **About**
+
+The About section provides an overview of our mission, values, and the inspiration behind creating Wandaroo Guru, emphasizing our commitment to making travel accessible and affordable for everyone.
+![About](assets/images/readme-images/about.png)
 
 - **Footer**
 
