@@ -40,7 +40,10 @@ The color scheme is inspired by the vibrant and captivating hero image that gree
 
 ## Fonts
 
-![Fonts](assets/images/readme-images/fonts.png)
+### Cavet Bush 
+
+- Reasoning: Filtered google fonts for playful and handwritten fonts to match the target vibe for the website for headings
+
 
 ### Kanit font
 A visually striking font that captures attention and enhances the overall aesthetic of the design.
