@@ -227,6 +227,11 @@ No issues were found when using all of the listed browsers, all performed with t
 
 ### Lighthouse
 
+<p align="center">
+    <img src="assets/images/readme-images/lighthouse.png" alt="Lighthouse">
+</p>
+
+
 ### Responsive Testing
 
 ### Validator Testing
