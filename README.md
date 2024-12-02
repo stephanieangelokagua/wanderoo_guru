@@ -55,25 +55,25 @@ Easy read fonts that have been developed to  reduce reading fatigue and make rea
 <a id="user-stories"></a>
 ## User Stories
 
-User Story 1
+#### User Story 1
 
-As a user, I want to be able to choose my desired budget and see destinations within that range so I can pick my desired destination based on what i can afford
+<em>As a user, I want to be able to choose my desired budget and see destinations within that range so I can pick my desired destination based on what i can afford</em>
 
-User Story 2
+#### User Story 2
 
-As a user, I want to be able to enter the length of my desired stay and my budget for feeding, accommodation and activities so I can calculate the total cost of my desired trip
+<em>As a user, I want to be able to enter the length of my desired stay and my budget for feeding, accommodation and activities so I can calculate the total cost of my desired trip</em>
 
-User Story 3
+#### User Story 3
 
-As a user, I want to see top destinations when I initially visit the site so I can choose my desired destination when I have no budget constraints
+<em>As a user, I want to see top destinations when I initially visit the site so I can choose my desired destination when I have no budget constraints</em>
 
-User Story 4
+#### User Story 4
 
-As a user, I want a website that is responsive so I can use it on all my devices
+<em>As a user, I want a website that is responsive so I can use it on all my devices</em>
 
-User Story 5
+#### User Story 5
 
-As a user, I want to be able to see visual representations of the various destinations so I can make my choice based on it's aesthetic 
+<em>As a user, I want to be able to see visual representations of the various destinations so I can make my choice based on it's aesthetic </em>
 
 
 <a id="features"></a>
@@ -90,10 +90,13 @@ The navigation section of the page was designed to allow the user to navigate th
 The hero image was chosen to reflect the overall theme of the website. To allow users achieve their goal of seeing destinations based on a budget they input, a slider was designed that triggers dynamically generated cards based on the inputted price range 
 
 ![Hero Image](assets/images/hero-1280x850.webp)
+![HeroImage](assets/images/heroo.png)
 
 - **Call to Action Button**
 
 The main call to action button for this website is the find my destination button which allows users see what destinations are within their budget 
+
+![CTAB](assets/images/ctacb.png)
 
 - **Budget Slider**
 
@@ -116,7 +119,7 @@ When users visit the page they are presented with default destinations that migh
 
 Budget calculator is an essential tool that was designed to allow users generate an estimate of the total budget they have. It focuses on calculating the total budget for their travel by factoring in the price per night they aim to spend on food, transport and activities, taking into consideration the number of guests 
 
-
+![Calculator](assets/images/budgetcalc.png)
 
 - **Interactive Map**
 
@@ -128,11 +131,15 @@ The interactive map feature allows users to preview the location of their chosen
 The About section provides an overview of our mission, values, and the inspiration behind creating Wandaroo Guru, emphasizing our commitment to making travel accessible and affordable for everyone.
 ![About](assets/images/readme-images/about.png)
 
+Used a third-paty tool to display a map that shows the different locations highlighted as possible destinations for the users
+
+![Map](assets/images/map.png)
+
 - **Footer**
 
 The footer was designed to showcase the tram behind the website 
 
-![Footer](assets/images/footerr.png)
+![Footer](assets/images/newfooter.png)
 
 <a id="testing"></a>
 
@@ -148,11 +155,51 @@ Copilot was employed to generate strategic planning ideas for the team. These AI
 
 **Development Support**
 
--
+- Used AI to learn how to style the thumb in range elements which allowed me learn more about how browser compatability affects the styling of elements on different web browsers
 
--
+- Used AI to generate the header of the hero section "Explore the world without breaking your bank!"
+
+- Used AI as a reminder for javacsript syntax to generate the dummy costs of the travelling to the various destinations
 
 ## Testing
+
+### User Story Testing
+
+#### User Story 1 Acceptance Testing
+
+| Test                    | Result       |
+| ----------------------- |  ------------ |
+|Slider to allow users pick their desired budget | Pass         |
+|Button to allow them generate destinations within that criteria   | Pass         |
+|Dynamically generated cards that contain the details of the destination within the budget range   | Pass         |
+
+#### User Story 2 Acceptance Testing
+
+| Test                    | Result       |
+| ----------------------- |  ------------ |
+|Users should be able to enter the length of their desired stay and their budget for feeding, accommodation and activities | Pass         |
+|Users should be able to click a button that will calculate their total cost and must be required to fill all fields   | Pass         |
+|The total cost of the trip should be calculated using these inputted fields and displayed to the user    | Pass         |
+
+#### User Story 3 Acceptance Testing
+
+| Test                    | Result       |
+| ----------------------- |  ------------ |
+|Users should be presented with top destinations on first visit to website before inputting their budget | Pass         |
+
+#### User Story 4 Acceptance Testing
+
+| Test                    | Result       |
+| ----------------------- |  ------------ |
+|Website should look good on all screen sizes and adapt accordingly  | Pass         |
+
+#### User Story 5 Acceptance Testing
+
+| Test                    | Result       |
+| ----------------------- |  ------------ |
+|Website should include visual representations of the various destinations | Pass         |
+
+
 
 ### Manual Testing
 
@@ -220,7 +267,7 @@ GitHub was used to deploy the website. These were the steps taken to acheive thi
 ### Technologies
 
 - [Leaflet](https://leafletjs.com/reference.html) - Open source street map, data available under the Open Database License.
-- - Git - version control
+- Git - version control
 - Github - deployment and project management
 - HTML 
 - CSS
