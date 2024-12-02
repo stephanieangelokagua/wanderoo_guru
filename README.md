@@ -216,12 +216,16 @@ Copilot was employed to generate strategic planning ideas for the team. These AI
 ### Browser Compatibility
 
 The site was tested on the folowing browsers
- - Chrome
- - ![chrome](assets/images/readme-images/chrome-browser-test.png)
- - Edge
- - ![edge](assets/images/readme-images/edge-browser-test.png)
 
-No issues were found when using all of the listed browsers, all performed with teh  intenend appearrance and responsiveness.
+ - Chrome
+
+![chrome](assets/images/readme-images/chrome-browser-test.png)
+ 
+ - Edge
+
+![edge](assets/images/readme-images/edge-browser-test.png)
+
+No issues were found when using all of the listed browsers, all performed with the  intenend appearance and responsiveness.
 
 ### Accessibility Testing
 
