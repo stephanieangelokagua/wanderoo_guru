@@ -346,6 +346,11 @@ Are part of the leaflet Open StreetMap and part of the api setting so unable to 
 
 
 - Javascript
+Using JSHint we validated our JavaScript
+
+![JS](assets/images/readme-images/javaScript-Validation.png)
+
+![JS 2](assets/images/readme-images/map-javascript-validation.png)
 
 ## Bugs
 
