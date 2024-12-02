@@ -86,6 +86,8 @@ As a user, I want to be able to see visual representations of the various destin
 
 The navigation section of the page was designed to allow the user to navigate through the different sections of the page with flexibility. Also, the logo and name of the company were added to differentiate the website from other websites offering similar services 
 
+![Navigation](assets/images/navv.png)
+
 - **Hero Image**
 
 The hero image was chosen to reflect the overall theme of the website. To allow users achieve their goal of seeing destinations based on a budget they input, a slider was designed that triggers dynamically generated cards based on the inputted price range 
@@ -97,24 +99,34 @@ The main call to action button for this website is the find my destination butto
 
 - **Budget Slider**
 
+![Slider](assets/images/slider.png)
+
 - **Destinations based on budget**
 
 Destinations based on the users budget are generated as cards and focus on describing the budget users should be aware of if they visit the recommended destination. 
 
+![DestinationsBasedOnBudget](assets/images/topd.png)
+
 - **Default Destinations**
 
 When users visit the page they are presented with default destinations that might interest them. This was designed for users who want to find their next travel destination but they are not constricted to price ranges. These cards also include a learn more button which allows interested users to book the destination 
+
+![TopDestinations](assets/images/defaultd.png)
 
 
 - **Budget Calculator**
 
 Budget calculator is an essential tool that was designed to allow users generate an estimate of the total budget they have. It focuses on calculating the total budget for their travel by factoring in the price per night they aim to spend on food, transport and activities, taking into consideration the number of guests 
 
+
+
 - **Interactive Map**
 
 - **Footer**
 
 The footer was designed to showcase the tram behind the website 
+
+![Footer](assets/images/footerr.png)
 
 <a id="testing"></a>
 
