@@ -311,47 +311,29 @@
                     <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Booking Form</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <!--Booking form-->
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Your name</label>
-                        <input type="text" class="form-control" id="exampleFormControlTextarea1">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
-                        data-bs-toggle="modal">Make booking</button>
-                </div>
+<div class="modal-body">
+<!--Booking form-->
+    <form>
+        <label for="exampleFormControlTextarea1" class="form-label">Your name</label>
+        <input type="text" class="form-control" id="exampleFormControlTextarea1" required>
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+        <button class="btn btn-primary" onclick="validateForm()">Make booking</button>
+    </form>
+            </div>
             </div>
         </div>
     </div>
-    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
-        tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Success</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    Your booking has been confirmed!!!
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <!-- location more info modal -->
     <div id="destinationModal" class="destinationModal"
         style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); background-color:white; padding:20px; box-shadow:0 0 10px rgba(0, 0, 0, 0.5); z-index:1000;">
         <h2>More Information</h2>
         <p>This is some more information about the selected location.</p>
         <img src style="width:100%; height:auto;" alt="Destination Image">
-        <button id="book-now" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Book Now</button>
+        <button id="book-now">Book Now</button>
         <button id="close-modal">Close</button>
+      
     </div>
     <!--Fontawesome toolkit-->
     <!-- About Us Modal -->
@@ -430,13 +412,13 @@
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Your
                             name</label>
-                        <input type="text" class="form-control" id="exampleFormControlTextarea1">
+                        <input type="text" class="form-control" id="exampleFormControlTextarea1" required>
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Email
                             address</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
+                            placeholder="name@example.com" >
                     </div>
                 </div>
                 <div class="modal-footer">
