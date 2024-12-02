@@ -239,7 +239,7 @@ No issues were found when using all of the listed browsers, all performed with t
 
 ### Responsive Testing
 
-Iphone XR Screenshots
+#### Iphone XR Screenshots
 
 <details>
     <summary>Hero section on iphone XR</summary>
@@ -262,6 +262,58 @@ Iphone XR Screenshots
 <details>
     <summary>Footer on iphone XR</summary>
     <img src="assets/images/p4.png">
+    
+</details>
+
+#### Ipad Pro Screenshots
+
+<details>
+    <summary>Hero section on Ipad Pro</summary>
+    <img src="assets/images/p11.png">
+    
+</details>
+
+<details>
+    <summary>Destinations section on Ipad Pro</summary>
+    <img src="assets/images/p22.png">
+    
+</details>
+
+<details>
+    <summary>Budget Calculator section on Ipad Pro</summary>
+    <img src="assets/images/p33.png">
+    
+</details>
+
+<details>
+    <summary>Footer on Ipad Pro</summary>
+    <img src="assets/images/p44.png">
+    
+</details>
+
+#### Nest Hub Screenshots
+
+<details>
+    <summary>Hero section on Nest Hub</summary>
+    <img src="assets/images/d1.png">
+    
+</details>
+
+<details>
+    <summary>Destinations section on Nest Hub</summary>
+    <img src="assets/images/d2.png">
+    
+</details>
+
+<details>
+    <summary>Budget Calculator section on iNest Hub</summary>
+    <img src="assets/images/d3.png">
+    
+</details>
+
+<details>
+    <summary>Footer on Nest Hub</summary>
+    <img src="assets/images/d4.png">
     
 </details>
 
