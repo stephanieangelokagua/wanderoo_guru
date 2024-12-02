@@ -33,6 +33,8 @@ Do you want to see the world? Do you have a budget? Do you know you can have bot
 
 ## Hero Image
 A captivating hero image was chosen to immediately grab the user's attention and spark their interest in the platform. This visually appealing image sets the tone for the entire user experience, creating an inviting and engaging atmosphere. The hero image is carefully selected to be appropriate for the target audience, reflecting the adventurous and budget-friendly spirit of the platform. The colors within the image are harmonized with the overall color scheme of the website, ensuring a cohesive and aesthetically pleasing design that enhances readability and user engagement.
+
+
 ![Hero Image](assets/images/hero-1280x850.webp)
 
 ## Colours
