@@ -335,6 +335,14 @@ We worked to resolve many of these issues but were unable to remove some, but we
 - HTML
 
 - CSS
+![CSS Validation](assets/images/readme-images/css-validation.png)
+
+fixed - var(--black) is not a valid color 3 or 6 hexadecimals numbers - removed the color black
+
+.leaflet-container img.leaflet-tile
+.leaflet-container img.leaflet-tile
+Are part of the leaflet Open StreetMap and part of the api setting so unable to fix at present.
+
 
 - Javascript
 
@@ -356,15 +364,6 @@ Fix
 
 ### Validation
 After exploring potential errors in the code such as unclosed blocks and wrongly addressed links, it was recognised that the error was due to a misaligniment of variables set in the root of the css file. Aligning these variables in the css file resulted in fixing the issue.
-
-### CSS
-![CSS Validation](assets/images/readme-images/css-validation.png)
-
-fixed - var(--black) is not a valid color 3 or 6 hexadecimals numbers - removed the color black
-
-.leaflet-container img.leaflet-tile
-.leaflet-container img.leaflet-tile
-Are part of the leaflet Open StreetMap and part of the api setting so unable to fix at present.
 
 
 <a id="deployment"></a>
