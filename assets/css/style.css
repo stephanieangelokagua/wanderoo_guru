@@ -258,15 +258,21 @@ button:hover {
 .destinationModal {
     display: none;
     position: fixed;
+    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
     padding: 20px;
+    border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     z-index: 1000;
 }
-
+.destinationModal img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
 /* Footer styles */
 
 #footer-style {
