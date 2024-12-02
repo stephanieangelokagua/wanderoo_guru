@@ -46,13 +46,13 @@ window.updateInputFromRange = function(rangeId, inputId) {
     var range = document.getElementById(rangeId);
     var input = document.getElementById(inputId);
     input.value = range.value;
-}
+};
 
 window.updateRangeFromInput = function (rangeId, inputId) {
     var range = document.getElementById(rangeId);
     var input = document.getElementById(inputId);
     range.value = input.value;
-}
+};
 
 //budget calculation function
 window.calculateBudget = function () {
@@ -74,51 +74,51 @@ window.calculateBudget = function () {
         let budget = (costTransport * numPeople) + ((duration * numPeople)) * ((foodCostPd + transportCostPd + attractionCostPd));
         document.getElementById("budgetResult").innerHTML = `Your Budget: £${budget}`;
     }
-}
+};
 
     // dynamically update budgetslider label based on user input
-    const budgetSlider = document.getElementById("customRange2") // get the range
-    const budgetLabel = document.getElementById("budgetValue") // get label
-    budgetLabel.textContent = `£${budgetSlider.value}` // set default label value
+    const budgetSlider = document.getElementById("customRange2"); // get the range
+    const budgetLabel = document.getElementById("budgetValue"); // get label
+    budgetLabel.textContent = `£${budgetSlider.value}`; // set default label value
     budgetSlider.addEventListener('input', () => {
-        budgetLabel.textContent = `£${budgetSlider.value}` // update based on user input
+        budgetLabel.textContent = `£${budgetSlider.value}`; // update based on user input
     });
 
-    const destinationButton = document.getElementById("findButton")
+    const destinationButton = document.getElementById("findButton");
     destinationButton.addEventListener('click', () => {
-        possibleDestinations()
-    })
+        possibleDestinations();
+    });
 
-    const cardContainer = document.getElementById("cardContainer")
+    const cardContainer = document.getElementById("cardContainer");
 
     function possibleDestinations() {
-        cardContainer.innerHTML = ``
-        const userBudget = parseInt(budgetSlider.value) // get budget entered by user
-        const heading_div = document.createElement("div")
-        const heading_for_card_section = document.createElement("h2")
-        heading_for_card_section.className = "mt-"
-        heading_for_card_section.textContent = "Top Destinations for your budget!"
-        heading_div.appendChild(heading_for_card_section)
-        cardContainer.appendChild(heading_div)
-        filterDestinationsByBudget = destinations.filter((destination) => destination.budget <= userBudget) //filter destinations by budget
+        cardContainer.innerHTML = ``;
+        const userBudget = parseInt(budgetSlider.value); // get budget entered by user
+        const heading_div = document.createElement("div");
+        const heading_for_card_section = document.createElement("h2");
+        heading_for_card_section.className = "mt-";
+        heading_for_card_section.textContent = "Top Destinations for your budget!";
+        heading_div.appendChild(heading_for_card_section);
+        cardContainer.appendChild(heading_div);
+        filterDestinationsByBudget = destinations.filter((destination) => destination.budget <= userBudget); //filter destinations by budget
         if (filterDestinationsByBudget.length === 0) {
-            cardContainer.innerHTML = '<p style="color: red; text-align: center; font-size: 1.5em;">No destinations available for your budget!</p>'
+            cardContainer.innerHTML = '<p style="color: red; text-align: center; font-size: 1.5em;">No destinations available for your budget!</p>';
             return;
         }
         filterDestinationsByBudget.forEach((destination) => {
-            heading_for_card_section.className = "col-12"
-            const column_card = document.createElement("div")
-            column_card.className = "col-lg-4"
-            const card = document.createElement("div")
-            card.className = "card"
+            heading_for_card_section.className = "col-12";
+            const column_card = document.createElement("div");
+            column_card.className = "col-lg-4";
+            const card = document.createElement("div");
+            card.className = "card";
             card.innerHTML = `<img src="${destination.image}" class="card-img-top" alt="...">
     <div class="card-body">
     <p class="card-text">${destination.name} </p>
     <p class="card-text">Perfect for a £${destination.budget} budget!</p>
     <button id="book-now" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Book Now</button>
-    </div>`
-            column_card.appendChild(card)
-            cardContainer.appendChild(column_card)
+    </div>`;
+            column_card.appendChild(card);
+            cardContainer.appendChild(column_card);
         });
     }
 

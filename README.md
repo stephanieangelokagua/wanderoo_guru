@@ -333,6 +333,8 @@ We worked to resolve many of these issues but were unable to remove some, but we
 
 ### Validator Testing
 
+After exploring potential errors in the code such as unclosed blocks and wrongly addressed links, it was recognised that the error was due to a misaligniment of variables set in the root of the css file. Aligning these variables in the css file resulted in fixing the issue.
+
 - HTML
 
 - CSS
@@ -346,6 +348,11 @@ Are part of the leaflet Open StreetMap and part of the api setting so unable to 
 
 
 - Javascript
+Using JSHint we validated our JavaScript
+
+![JS](assets/images/readme-images/javaScript-Validation.png)
+
+![JS 2](assets/images/readme-images/map-javascript-validation.png)
 
 ## Bugs
 
@@ -361,11 +368,6 @@ Fix
  - Hero image not displaying.
 
 Fix
-
-
-### Validation
-After exploring potential errors in the code such as unclosed blocks and wrongly addressed links, it was recognised that the error was due to a misaligniment of variables set in the root of the css file. Aligning these variables in the css file resulted in fixing the issue.
-
 
 <a id="deployment"></a>
 ## Deployment
