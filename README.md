@@ -2,7 +2,7 @@
 
 
 Do you want to see the world? Do you have a budget? Do you know you can have both of these at the same time? Wandaroo Guru is here to help you explore the world without breaking your bank! Explore different destinations across the world with an additional perspective: Your Budget! This website is here to help anyone looking for budget conscious travel suggestions with their estimated costs and photos from the lens of other travelers who visited them!
-
+![Site Mockup](assets/images/readme-images/site-mockup.png)
 # Contents
 
 1. [UX Design](#ux-design)
