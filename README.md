@@ -122,23 +122,22 @@ Budget calculator is an essential tool that was designed to allow users generate
 
 - **Interactive Map**
 
-
-- **About**
-
-The About section provides an overview of our mission, values, and the inspiration behind creating Wandaroo Guru, emphasizing our commitment to making travel accessible and affordable for everyone.
-![About](assets/images/readme-images/about.png)
-
 Used a third-paty tool Leaflet to display a map that shows the different locations highlighted as possible destinations for the users
 
 ![Interactive Map](assets/images/readme-images/maps.png)
 
 ![Map](assets/images/map.png)
 
->>>>>>> 66ad19bbc0033dff40bf1956d0608c8d02e9c957
+
+- **About**
+
+The About section provides an overview of our mission, values, and the inspiration behind creating Wandaroo Guru, emphasizing our commitment to making travel accessible and affordable for everyone.
+![About](assets/images/readme-images/about.png)
+
 
 - **Footer**
 
-The footer was designed to showcase the tram behind the website 
+The footer was designed to showcase the team behind the website 
 
 ![Footer](assets/images/newfooter.png)
 
@@ -160,7 +159,7 @@ Copilot was employed to generate strategic planning ideas for the team. These AI
 
 - Used AI to generate the header of the hero section "Explore the world without breaking your bank!"
 
-- Used AI as a reminder for javacsript syntax to generate the dummy costs of the travelling to the various destinations
+- Used AI to generate the dummy costs of the travelling to the various destinations
 
 ## Testing
 

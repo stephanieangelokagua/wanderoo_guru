@@ -214,7 +214,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="flights" class="form-label">Estimated
-                            Cost of transportion to destination<i class="fa-solid fa-plane-departure"></i></label>
+                            Cost of Transportion to Destination <i class="fa-solid fa-plane-departure"></i></label>
                         <input type="number" class="form-control" id="flights" aria-describedby="flightsHelp">
                         <div id="flightsHelp" class="form-text">Enter the
                             estimated cost of transportation to (and from)
@@ -225,14 +225,14 @@
                             <div class="col-md-4 d-flex flex-column align-items-center text-center mb-2">
                                 <label for="range1" class="form-label">Food
                                     <i class="fa-solid fa-utensils"></i></label>
-                                <input type="number" id="range1Value" class="form-control mb-2 text-center" value="50"
-                                    min="0" max="250" oninput="updateRangeFromInput('range1', 'range1Value')">
-                                <input type="range" class="form-range" id="range1" min="0" max="250" value="50"
+                                <input type="number" id="range1Value" class="form-control mb-2 text-center" value="100"
+                                    min="0" max="200" oninput="updateRangeFromInput('range1', 'range1Value')">
+                                <input type="range" class="form-range" id="range1" min="0" max="200" value="100"
                                     oninput="updateInputFromRange('range1', 'range1Value')">
                             </div>
                             <div class="col-md-4 d-flex flex-column align-items-center text-center mb-2">
                                 <label for="range2" class="form-label">Transport <i
-                                        class="fa-solid fa-taxi"></i></i></label>
+                                        class="fa-solid fa-taxi"></i></label>
                                 <input type="number" id="range2Value" class="form-control mb-2 text-center" value="50"
                                     min="0" max="100" oninput="updateRangeFromInput('range2', 'range2Value')">
                                 <input type="range" class="form-range" id="range2" min="0" max="100" value="50"
@@ -241,9 +241,9 @@
                             <div class="col-md-4 d-flex flex-column align-items-center text-center mb-2">
                                 <label for="range3" class="form-label">Attractions <i
                                         class="fa-solid fa-mountain-city"></i></label>
-                                <input type="number" id="range3Value" class="form-control mb-2 text-center" value="50"
-                                    min="0" max="300" oninput="updateRangeFromInput('range3', 'range3Value')">
-                                <input type="range" class="form-range" id="range3" min="0" max="300" value="50"
+                                <input type="number" id="range3Value" class="form-control mb-2 text-center" value="100"
+                                    min="0" max="200" oninput="updateRangeFromInput('range3', 'range3Value')">
+                                <input type="range" class="form-range" id="range3" min="0" max="200" value="100"
                                     oninput="updateInputFromRange('range3', 'range3Value')">
                             </div>
                         </div>
@@ -268,15 +268,6 @@
                     </select>
                     <div id="map"></div>
                     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-                    <!--<div class="mb-3">
-                        <label for="budget" class="form-label">Budget</label>
-                        <input type="number" class="form-control" id="budget" aria-describedby="budgetHelp">
-                        <div id="budgetHelp" class="form-text">Enter the total
-                            budget you have.</div>
-                    </div>-->
-                    <!--<div class="d-flex justify-content-center">
-                        <button type="submit" class="btn btn-primary">Calculate</button>
-                    </div>-->
                 </form>
                 <div class="d-flex justify-content-center">
                     <button class="btn btn-primary" onclick="calculateBudget()">Calculate</button>
