@@ -220,7 +220,7 @@ body {
     height: 300px;
     width: 100%;
     border-radius: 0px;
-    box-shadow: 0 10px 10px 10px rgba(black, 0.2);
+    box-shadow: 0 10px 10px 10px rgba(var(--black), 0.2);
     overflow: hidden;
 }
 
