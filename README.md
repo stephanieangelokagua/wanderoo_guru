@@ -90,6 +90,7 @@ Budget calculator is an essential tool that was designed to allow users generate
 - **Interactive Map**
 
 - **Footer**
+
 The footer was designed to showcase the tram behind the website 
 
 <a id="testing"></a>
