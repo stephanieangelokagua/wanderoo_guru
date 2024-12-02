@@ -337,6 +337,11 @@ We worked to resolve many of these issues but were unable to remove some, but we
 - CSS
 
 - Javascript
+Using JSHint we validated our JavaScript
+
+![JS](assets/images/readme-images/javaScript-Validation.png)
+
+![JS 2](assets/images/readme-images/map-javascript-validation.png)
 
 ## Bugs
 
