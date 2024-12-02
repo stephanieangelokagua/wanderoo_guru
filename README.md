@@ -154,6 +154,44 @@ Copilot was employed to generate strategic planning ideas for the team. These AI
 
 ## Testing
 
+### User Story Testing
+
+#### User Story 1 Acceptance Testing
+
+| Test                    | Result       |
+| ----------------------- |  ------------ |
+|Slider to allow users pick their desired budget | Pass         |
+|Button to allow them generate destinations within that criteria   | Pass         |
+|Dynamically generated cards that contain the details of the destination within the budget range   | Pass         |
+
+#### User Story 2 Acceptance Testing
+
+| Test                    | Result       |
+| ----------------------- |  ------------ |
+|Users should be able to enter the length of their desired stay and their budget for feeding, accommodation and activities | Pass         |
+|Users should be able to click a button that will calculate their total cost and must be required to fill all fields   | Pass         |
+|The total cost of the trip should be calculated using these inputted fields and displayed to the user    | Pass         |
+
+#### User Story 3 Acceptance Testing
+
+| Test                    | Result       |
+| ----------------------- |  ------------ |
+|Users should be presented with top destinations on first visit to website before inputting their budget | Pass         |
+
+#### User Story 4 Acceptance Testing
+
+| Test                    | Result       |
+| ----------------------- |  ------------ |
+|Website should look good on all screen sizes and adapt accordingly  | Pass         |
+
+#### User Story 5 Acceptance Testing
+
+| Test                    | Result       |
+| ----------------------- |  ------------ |
+|Website should include visual representations of the various destinations | Pass         |
+
+
+
 ### Manual Testing
 
 | Test                    | Device     | Result       |
