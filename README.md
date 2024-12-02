@@ -306,7 +306,7 @@ No issues were found when using all of the listed browsers, all performed with t
 </details>
 
 <details>
-    <summary>Budget Calculator section on iNest Hub</summary>
+    <summary>Budget Calculator section on Nest Hub</summary>
     <img src="assets/images/d3.png">
     
 </details>
