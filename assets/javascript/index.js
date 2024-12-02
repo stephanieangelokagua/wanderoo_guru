@@ -280,7 +280,6 @@ function validateForm() {
         const button = document.querySelector('[data-bs-target="#exampleModalToggle2"]');
         button.setAttribute('data-bs-toggle', 'modal');
         button.click();
-        alert('Successfully booked!');
     } else {
         alert('Please fill in all fields with a valid email address.');
     }
