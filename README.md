@@ -128,6 +128,10 @@ Budget calculator is an essential tool that was designed to allow users generate
 
 - **Interactive Map**
 
+Used a third-paty tool to display a map that shows the different locations highlighted as possible destinations for the users
+
+![Map](assets/images/map.png)
+
 - **Footer**
 
 The footer was designed to showcase the tram behind the website 
