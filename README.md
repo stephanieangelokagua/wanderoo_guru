@@ -225,6 +225,12 @@ The site was tested on the folowing browsers
 
 ![edge](assets/images/readme-images/edge-browser-test.png)
 
+| **Browser Compatibility** | Chrome | Edge  |
+|----------------------------|--------|-------|
+| **Intended appearance?**   | Good   | Good  |
+| **Intended responsiveness?**| Good   | Good  |
+                                  
+
 No issues were found when using all of the listed browsers, all performed with the  intenend appearance and responsiveness.
 
 ### Accessibility Testing
@@ -232,6 +238,16 @@ No issues were found when using all of the listed browsers, all performed with t
 ### Lighthouse
 
 ### Responsive Testing
+
+Iphone XR Screenshots
+
+![HerosectionXR](assets/images/p1.png)
+
+![PopularDestinationsXR](assets/images/p2.png)
+
+![CalculatorXR](assets/images/p3.png)
+
+![FooterXR](assets/images/p4.png)
 
 ### Validator Testing
 
