@@ -89,16 +89,7 @@ The navigation section of the page was designed to allow the user to navigate th
 
 The hero image was chosen to reflect the overall theme of the website. To allow users achieve their goal of seeing destinations based on a budget they input, a slider was designed that triggers dynamically generated cards based on the inputted price range 
 
-<<<<<<< HEAD
-![Hero Image](assets/images/hero-1280x850.webp)
 ![HeroImage](assets/images/heroo.png)
-=======
-
-![Hero Image](assets/images/hero-1280x850.webp)
-=======
-![HeroImage](assets/images/heroo.png)
-
->>>>>>> 66ad19bbc0033dff40bf1956d0608c8d02e9c957
 
 - **Call to Action Button**
 
