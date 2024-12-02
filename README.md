@@ -237,6 +237,16 @@ No issues were found when using all of the listed browsers, all performed with t
 
 ### Accessibility Testing
 
+Accesibility testing was conducted using WAVE (Web Accessibility Evaluation Tool).
+On our initial test we found multiple issues with image alt text's, form labelling and contrast issues
+
+![WAVE 1](assets/images/readme-images/initial-WAVE-validation.png)
+
+We worked to resolve many of these issues but were unable to remove some, but we were left with a much more accesibile site as show by the final test results
+
+![WAVE 2](assets/images/readme-images/final-WAVE-validation.png)
+![WAVE 2 issues](assets/images/readme-images/final-WAVE-validation-issues.png)
+
 ### Lighthouse
 
 ### Responsive Testing
