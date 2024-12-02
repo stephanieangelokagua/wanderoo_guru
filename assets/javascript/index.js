@@ -265,7 +265,8 @@ window.calculateBudget = function () {
 
     // Close modal when the "Book Now" button is clicked
     document.getElementById('book-now').addEventListener('click', function () {
-        alert('Booking confirmed!');
+        var modalToggle = new bootstrap.Modal(document.getElementById('exampleModalToggle'));
+        modalToggle.show();
         var modal = document.getElementById('destinationModal');
         modal.style.display = 'none';
         document.getElementById('destinationModal').removeChild(document.getElementById('destinationModal').firstChild);
