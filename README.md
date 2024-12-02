@@ -159,7 +159,7 @@ Copilot was employed to generate strategic planning ideas for the team. These AI
 
 - Used AI to generate the header of the hero section "Explore the world without breaking your bank!"
 
-- Used AI as a reminder for javacsript syntax to generate the dummy costs of the travelling to the various destinations
+- Used AI to generate the dummy costs of the travelling to the various destinations
 
 ## Testing
 
