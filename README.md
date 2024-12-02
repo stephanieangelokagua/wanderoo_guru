@@ -95,6 +95,7 @@ The navigation section of the page was designed to allow the user to navigate th
 
 The hero image was chosen to reflect the overall theme of the website. To allow users achieve their goal of seeing destinations based on a budget they input, a slider was designed that triggers dynamically generated cards based on the inputted price range 
 
+![HeroImage](assets/images/heroo.png)
 
 - **Call to Action Button**
 
@@ -121,7 +122,7 @@ When users visit the page they are presented with default destinations that migh
 
 Budget calculator is an essential tool that was designed to allow users generate an estimate of the total budget they have. It focuses on calculating the total budget for their travel by factoring in the price per night they aim to spend on food, transport and activities, taking into consideration the number of guests 
 
-
+![Calculator](assets/images/budgetcalc.png)
 
 - **Interactive Map**
 
@@ -129,7 +130,7 @@ Budget calculator is an essential tool that was designed to allow users generate
 
 The footer was designed to showcase the tram behind the website 
 
-![Footer](assets/images/footerr.png)
+![Footer](assets/images/newfooter.png)
 
 <a id="testing"></a>
 
