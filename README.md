@@ -42,7 +42,7 @@ The color scheme is inspired by the vibrant and captivating hero image that gree
 
 ### Cavet Bush 
 
-- Reasoning: Filtered google fonts for playful and handwritten fonts to match the target vibe for the website for headings
+- Filtered google fonts for playful and handwritten fonts to match the target vibe for the website for headings
 
 ### Gloria Hallelujah
 - A playful and handwritten font that complements the adventurous and budget-friendly vibe of the platform.
@@ -130,6 +130,7 @@ Used a third-paty tool Leaflet to display a map that shows the different locatio
 - **About**
 
 The About section provides an overview of our mission, values, and the inspiration behind creating Wandaroo Guru, emphasizing our commitment to making travel accessible and affordable for everyone.
+
 ![About](assets/images/readme-images/about.png)
 
 
@@ -238,7 +239,7 @@ On our initial test we found multiple issues with image alt text's, form labelli
 
 ![WAVE 1](assets/images/readme-images/initial-WAVE-validation.png)
 
-We worked to resolve many of these issues but were unable to remove some, but we were left with a much more accesibile site as show by the final test results
+We worked to resolve many of these issues but were unable to remove some, but we were left with a much more accesibile site as shown by the final test results
 
 ![WAVE 2](assets/images/readme-images/final-WAVE-validation.png)
 ![WAVE 2 issues](assets/images/readme-images/final-WAVE-validation-issues.png)
@@ -335,6 +336,14 @@ We worked to resolve many of these issues but were unable to remove some, but we
 - HTML
 
 - CSS
+![CSS Validation](assets/images/readme-images/css-validation.png)
+
+fixed - var(--black) is not a valid color 3 or 6 hexadecimals numbers - removed the color black
+
+.leaflet-container img.leaflet-tile
+.leaflet-container img.leaflet-tile
+Are part of the leaflet Open StreetMap and part of the api setting so unable to fix at present.
+
 
 - Javascript
 Using JSHint we validated our JavaScript
@@ -358,7 +367,10 @@ Fix
 
 Fix
 
+
+### Validation
 After exploring potential errors in the code such as unclosed blocks and wrongly addressed links, it was recognised that the error was due to a misaligniment of variables set in the root of the css file. Aligning these variables in the css file resulted in fixing the issue.
+
 
 <a id="deployment"></a>
 ## Deployment
